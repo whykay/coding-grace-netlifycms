@@ -3,7 +3,12 @@ title: Why do we have CVs?
 description: Note that this post is for direct hiring managers and job seekers, not recruiters who normally filter CVs and resumés.
 date: 2021-04-16T15:13:13.021Z
 author: Vicky Twomey-Lee
-tags: career, jobs, cvs, tech, interviews
+tags: 
+    - career
+    - jobs
+    - cvs
+    - tech
+    - interviews
 ---
 
 <div class="text-sm font-bold">ℹ️ Note: This post is for direct hiring managers and programmers who are doing the interviews, and job seekers. This is not recruiters who normally filter CVs and resumés before it gets to the person doing the technical interviews.</div>
