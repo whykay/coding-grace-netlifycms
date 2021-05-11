@@ -8,7 +8,6 @@ tags:
   - news
   - gamecraft
 ---
-
 A new site (NetlifyCMS with 11ty & TailwindCSS, if you are curious 😉) will be cleaner and still show you info about our events, news and more. Bear with us as we work on adding more details to the re-vamped site. We will archive the previous site along with info on our past events and blogs posts, and you can still find it at [codinggrace.com](https://codinggrace.com).
 
 ### 📢 We also have a big announcement to make!
@@ -20,9 +19,11 @@ GameCraft has partnered with Coding Grace on game-related events in the past suc
 Here's the official statement:
 
 > Coding Grace Foundation welcomes GameCraft, who has been running in-person community game jams since 2012, as part of the Coding Grace organisation.
-> 
+>
 > Coding Grace Foundation will be looking after the adminstration when it comes to GameCraft finances, the day-to-day functions, organisation, running, hosting events and other games-related collaborations will remain with GameCraft.
-> 
+>
 > We look forward to many game-related community events and their support of local games communities running their own events.
 
 #### *— Vicky Twomey-Lee (Co-Founder), Michael Twomey (Director), Andrea Magnorsky (Director)*
+
+![Coding Grace Team](src/static/img/cg-team.png)
