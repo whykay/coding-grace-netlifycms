@@ -26,4 +26,4 @@ Here's the official statement:
 
 #### *— Vicky Twomey-Lee (Co-Founder), Michael Twomey (Director), Andrea Magnorsky (Director)*
 
-![Coding Grace Team](src/static/img/cg-team.png)
+![Coding Grace Team](/static/img/cg-team.png)
