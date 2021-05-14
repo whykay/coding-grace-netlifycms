@@ -1,0 +1,110 @@
+---
+team:
+  - name: Andrea Magnorsky
+    url: 
+    twitter: "https://twitter.com/roundcrisis"
+    linkedin:
+    role: "Director/Co-Founder"
+    desc: ""
+    profile_pic: "https://i.imgur.com/ngRYPfub.jpg"
+  - name: Michael Twomey
+    url: 
+    twitter: "https://twitter.com/micktwomey"
+    linkedin:
+    role: "Director/Co-Founder"
+    desc: ""
+    profile_pic: "https://i.imgur.com/hpUfWOVb.jpg"
+  - name: Vicky Twomey-Lee
+    url: "https://beacons.page/whykay"
+    twitter: "https://twitter.com/whykay"
+    linkedin: 
+    role: "Co-Founder"
+    desc: "Coder, Tech Event Organiser, Mentor and Advocates Diversity in Tech"
+    profile_pic: "https://pbs.twimg.com/profile_images/1334538352993968128/HD6EYYqv_400x400.jpg"
+
+advisors:
+  - name: Mary Carty
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/marycarty"
+    desc: "Director, Board of Directors, Science Gallery International / Was Executive Director Blackstone LaunchPad, Co-founder Outbox Incubator"
+  - name: Joanne Dolan
+    url: "https://teen-turn.com/advisors/"
+    twitter:
+    linkedin:
+    desc: "Co-Founder at Teen-Turn"
+  - name: Alexandra Etienne
+    url: 
+    twitter: "https://www.linkedin.com/in/alexandra-etienne-112290102"
+    linkedin:
+    desc: "Global Community Engagement Manager at Dropbox"
+  - name: Edel Flynn
+    url: 
+    twitter:
+    linkedin: "https://www.linkedin.com/in/edelkennedyflynn"
+    desc: "Director and Co-Founder at Element78Space"
+  - name: Paul Hayes
+    url: 
+    twitter:
+    linkedin: "https://www.linkedin.com/in/paulhayes4"
+    desc: "CEO at Beachhut PR"
+  - name: Tony Kelly 
+    url: 
+    twitter:
+    linkedin: "https://www.linkedin.com/in/paulhayes4"
+    desc: "Spicebox.io"
+  - name: Eamon Leonard
+    url: 
+    twitter:
+    linkedin: "https://www.linkedin.com/in/eamonleonard/"
+    desc: "Boundless"
+  - name: Mary Dunphy
+    url: 
+    twitter: "https://twitter.com/marydunph?lang=en"
+    linkedin: "https://www.linkedin.com/in/mary-dunphy-9a159b18"
+    desc: "Senior Managing Director, Teneo / Was Global CEO CoderDojo Foundation"
+  - name: Cian O'Cuilleanain
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/cianoc/"
+    desc: "MD, Baily Labs"
+  - name: Julie Pichon
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/juliepichon/"
+    desc: "Senior Software Engineer, Red Hat"
+  - name: Martha Rotter
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/martharotter/"
+    desc: "Senior Software Engineer, Patreon"
+  - name: Pauline Sargent
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/paulinesargent/"
+    desc: "Associate Network Coordinator, Irish Management Institute"
+  - name: Niambh Scullion
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/niambh-scullion-cspo-7253763/"
+    desc: "Scrum Product Owner Social Program Management Platform, IBM / Co-Founder at Teen-Turn / Was Mentor at CoderDojoGirls@DCU"
+  - name: Andreea Wade
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/andreeawade/"
+    desc: "Portfolio Director, AI/ML at iCIMS / Co Founder & CEO at Opening.io"
+  - name: Patrick Walsh
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/patrickmjwalsh/"
+    desc: "CEO, Dogpatch Labs"
+  - name: Rose Farrell 
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/roseirl"
+    desc: "Senior Recruiter | Career Cicerone | Digital Stalker | Cat Herder at nineDots"
+  - name: Padraig O'Brien
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/padraigobrien/"
+    desc: "Software Engineer at Hulacorn.com"
