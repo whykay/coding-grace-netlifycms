@@ -11,12 +11,21 @@ data: people
           FAQ
         </h2>
         <p class="mt-4 text-lg text-gray-500">Can’t find the answer you’re looking for? Drop us an email at <a href="mailto:contact@codinggrace.com" class="font-medium text-indigo-600 hover:text-indigo-500">contact@codinggrace.com</a>.</p>
+
+        <div class="mt-10">
+          <ul class="list-disc ml-4">
+            <li><a href="#who" class="hover:text-yellow-500 font-bold">Who are the peeps behind Coding Grace?</a></li>
+            <li class="mt-4"><a href="#get-involved" class="hover:text-yellow-500 font-bold">Get Involved</a></li>
+            <li class="mt-4"><a href="#supporters" class="hover:text-yellow-500 font-bold">Team and Advisors</a></li>
+          </ul>
+        </div>
       </div>
       <div class="mt-12 lg:mt-0 lg:col-span-2">
         <dl class="space-y-12">
-          <div>
-            <dt class="text-lg leading-6 font-medium text-gray-900">
-              Who are we?
+          <div id="who">
+            <img src="/static/img/cg-who.png" alt="who are we banner">
+            <dt class="text-lg leading-6 font-medium text-gray-900 mt-2">
+              Who are the peeps behind Coding Grace?
             </dt>
             <dd class="mt-2 text-base text-gray-500">
               <p>
@@ -46,7 +55,7 @@ data: people
               We are also a not-for-profit organisation
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              <p>🏢 We are a registered company limited by gaurantee (CLG), <strong>Coding Grace Foundation CLG</strong>. We are a not for profit company, none of the directors and members of Coding Grace Foundation CLG get any shares. Any contributiions through donations, events, etc. goes back into the adminstration of the company, e.g. the accountant and bank fees.</p>
+              <p>🏢 We are a registered company limited by gaurantee (CLG), <strong>Coding Grace Foundation CLG</strong>. We are a not for profit company, none of the directors and members of Coding Grace Foundation CLG receive any shares. Any contributions through donations, events, etc. goes back into the adminstration of the company, e.g. the accountant and bank fees.</p>
               <p class="mt-2">
                 ℹ️ Our company number is: 568940
               </p>
@@ -54,12 +63,53 @@ data: people
             </dd>
           </div>
 
-          <div>
-            <dt class="text-lg leading-6 font-medium text-gray-900">
+          <div id="get-involved">
+            <img src="/static/img/cg-get-involved.png" alt="get involved banner">
+            <dt class="text-lg leading-6 font-medium text-gray-900 mt-2">
+              Why get involved?
+            </dt>
+            <dd class="mt-2 text-base text-gray-500">
+              <ul class="list-disc ml-4">
+                <li class="p-1">🌈 Administration, mentoring and promoting our activities as well as newsletter and live blog of events are all done voluntarily as we are a not-for-profit.</li>
+                🧾 As we are a registered company, we still have to pay fees like business bank charges and accountant's fees (they do the books for our financial year end and handle any other revenue-related enquiries). The latter is not cheap.</li>
+                <li class="p-1">🤲 By supporting us, we can also support other local tech community groups, especially those who don't have a bank account.</li>
+              </ul>
+            </dd>
+            <dt class="text-lg leading-6 font-medium text-gray-900 mt-5">
               How to get involved?
             </dt>
             <dd class="mt-2 text-base text-gray-500">
+              <p>
+                You can:-
+                <ul class="list-disc ml-4">
+                  <li class="p-1">Volunteer Mentoring</li>
+                  <li class="p-1">Advisor to help us figure out how to help the community (and maybe solve all of the world's problems!)</li>
+                  <li class="p-1">Facilitate or host Workshops/Events</li>
+                  <li class="p-1">Form a new local Coding Grace chapter in your local area. </li>
+                  <li class="p-1">If you feel you still like to contribute but any of the above doesn't suit, you can do so via Open Collective or Github Sponsors. (See below for more info)</li>
+                  <li class="p-1">If you are a company, drop us a line and have a chat on how your company can contribute to Coding Grace Foundation.</li>
+                </ul>
+              </p>
 
+              <p class="mt-5">There are 2 ways you can contribute to Coding Grace Foundation which can help alleviate expenses from accounting and bank charges.</p>
+              <h4 class="mt-4 text-lg font-extrabold">1. Open Collective</h4>
+              <p>A great service to help communities like ours to accept contributions transparently. Here's a hu-uge ❤️ to our Open Collective supporters below. </p>
+              <p class="bg-yellow-50 p-4 mt-2">
+                <script src="https://opencollective.com/coding-grace/banner.js"></script>
+
+                <script src="https://opencollective.com/coding-grace/contribute/button.js" color="blue"></script>
+              </p>
+              
+              <h4 class="mt-4 text-lg font-extrabold">2. Github Sponsors</h4>
+              <div class="bg-yellow-50 p-4 mt-2">
+                <p>
+                  This one is relatively new and we only found out about it after Open Collective. If you want to sponsor us via github, click on the button below.
+                </p>
+                <p class="mt-4">
+                  <a class="github-button" href="https://github.com/sponsors/codinggrace" data-icon="octicon-heart" aria-label="Sponsor @codinggrace on GitHub">Sponsor</a>
+                </p>
+              </div>
+              
             </dd>
           </div>
         </dl>
@@ -136,7 +186,7 @@ data: people
       <div class="mt-5 pt-5 pb-5">
         <h3 class="font-semibold tracking-tight sm:text-4xl">Advisors</h3>
         <ul class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
-          {% for member in people.advisors %}
+          {% for member in people.advisors | sort(attribute="name") %}
           <li class="bg-yellow-50 shadow-lg pt-5 rounded-md">
             <div class="space-y-4">
               <div class="space-y-2">
