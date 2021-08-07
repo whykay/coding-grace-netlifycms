@@ -17,6 +17,26 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Wed Aug 6, 2014 (13:07)
+  eleventyConfig.addFilter("readableDateTime", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "EEE DD (T)"
+    );
+  });
+  
+  // Filtered events including a given type
+  eleventyConfig.addFilter("inclItemTypeList", (items, item_type) => {
+    return items.filter(item => item.type == item_type 
+    );
+  });
+
+  // Was returning list of items excluding the current day
+  // Fix 1 day off, minus the day of local datetime before it gets compared
+  eleventyConfig.addFilter("laterItemList", (items) => {
+    return items.filter(item => DateTime.local().minus({days: 0.5}) <= DateTime.fromJSDate(item.start_datetime)
+    );
+  });
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 
