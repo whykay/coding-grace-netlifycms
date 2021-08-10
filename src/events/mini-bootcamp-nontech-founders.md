@@ -1,6 +1,7 @@
 ---
 title: Mini-bootcamp for Non-Tech Founders
 description: "A mini-bootcamp for Non-Tech Founders covering a areas in tech while navigating the space"
+how: "Once you sign up, read the pre-requisites to set up your machine, any questions, email contact@codinggrace.com. In the meantime, you will receive a link and details on videos to view before the workshop, and how to join the session and we will make sure everyone is setup before we proceed with the workshop. And ask questions at any time during the workshop, we have mentors on hand to help you."
 author: Vicky Twomey-Lee
 date: 2021-08-04
 event_startdate: 2021-10-01T15:00:00Z
@@ -10,6 +11,13 @@ tags:
   - workshops
   - beginner-friendly
   - startups
+supporters:
+  - org: "A Nice company"
+    url: "https://example.com"
+partners:
+  - org: "GameCraft"
+    url: "https://gamecraft.it"
+level: "Beginner-friendly"
 ---
 
 ## What is this workshop about?
@@ -33,9 +41,8 @@ Online
 ## Price
 €TBC
 
-<h3>📍 Please Note</h3>
+### 📍 Please Note
 
-<div class="text-base">
 This workshop is aimed to guide you to be more informed in your decisions around tech and tips on navigating this fast-paced tech industry. We are all volunteers on this programme, and we pay mentors when possible, and if there's any monies leftover, it will go back into Coding Grace Foundation to help with its administritive costs, e.g. annual accountancy and bank fees.
-</div>
 
+https://codinggrace.com

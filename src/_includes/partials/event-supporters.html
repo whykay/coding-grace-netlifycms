@@ -11,10 +11,31 @@
 
 <div class="bg-white" id="supporters">
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <p class="text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
-      A huge thanks to our supporter(s)
+    <p class="text-xl text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
+      🌈 A huge thanks to our supporter(s) and partner(s) 🌈 
     </p>
-    <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+    {% if supporters %}
+      <h5>Supporters</h5>
+      <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+        {% for supporter in supporters %}
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <a href="{{ supporter.url }}">{{ supporter.org }}</a>
+        </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if partners %}
+      <h5 class="mt-5">Partners</h5>
+      <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+        {% for partner in partners %}
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <a href="{{ partner.url }}">{{ partner.org }}</a>
+        </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {# <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
       <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
         <img class="max-h-12" src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg" alt="Workcation">
       </div>
@@ -36,6 +57,7 @@
       <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
         <img class="max-h-12" src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg" alt="Statamic">
       </div>
-    </div>
+    </div> #}
+
   </div>
 </div>
