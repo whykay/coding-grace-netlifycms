@@ -19,7 +19,11 @@
         </dt>
         <dd class="mt-1 text-sm text-gray-900">
             {% set comma = joiner() %}
-           {% for m in mentors|list %}{{ comma() }} {{m }}{% endfor %}
+            {% if mentors %}
+              {% for m in mentors|list %}{{ comma() }} {{m }}{% endfor %}
+            {% else %} 
+              TBC
+            {% endif %}
         </dd>
       </div>
       <div class="sm:col-span-1">
