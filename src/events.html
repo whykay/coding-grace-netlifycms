@@ -1,0 +1,77 @@
+---
+layout: codinggrace
+events: {{collections.events}}
+---
+
+
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-10 px-4 sm:py-10 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-base font-semibold text-indigo-600 tracking-wide uppercase">Coding Grace</h2>
+      <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Events Listings</p>
+    </div>
+  </div>
+</div>
+
+
+{% set eventlist = collections.events %}
+<div class="bg-white pt-16 pb-10 px-4 sm:px-6 lg:pt-24 lg:pb-10 lg:px-8">
+  <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
+    <div>
+      <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+        Current Events and Workshops
+      </h2>
+    </div>
+    <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">   
+      {% set current_events = eventlist | laterItemList | sort(attribute='data.start_datetime') | reverse %}
+
+      {% for event in current_events %}
+        {% include "./_includes/partials/event-summary.html" %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="bg-white pt-16 pb-10 px-4 sm:px-6 lg:pt-24 lg:pb-10 lg:px-8">
+  <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
+    <div>
+      <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+        Past Events
+      </h2>
+
+    </div>
+    <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
+      {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse %}
+      {% for event in old_events %}
+        {% include "./_includes/partials/event-summary.html" %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{# <div class="my-10">
+        <div>
+            {% for event in collections.events | sort(attribute='start_datetime') %}
+            <p>
+                {{ event.data.title }} :::: {{ event.data.start_datetime | readableDateTime }}
+            </p>
+            {% endfor %}
+        </div>
+
+      {% set eventlist = collections.events %}
+      <div class="my-5">
+      <!-- Current events -->
+      {% set current_events = eventlist | laterItemList | sort(attribute='data.start_datetime') | reverse %}
+      {% for event in current_events %}
+        <p>{{ event.data.title }} ({{ event.data.start_datetime | readableDateTime() }})</p>
+      {% endfor %}
+      </div>
+
+            <div class="my-5">
+      <!-- Current events -->
+      {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse %}
+      {% for event in old_events %}
+        <p>{{ event.data.title }} ({{ event.data.start_datetime | readableDateTime() }})</p>
+      {% endfor %}
+      </div>
+</div> #}

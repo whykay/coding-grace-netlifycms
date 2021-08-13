@@ -24,6 +24,13 @@ module.exports = function (eleventyConfig) {
     );
   });
   
+    // human readable year
+    eleventyConfig.addFilter("getYear", (dateObj) => {
+      return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+        "yyyy"
+      );
+    });
+
   // Filtered events including a given type
   eleventyConfig.addFilter("inclItemTypeList", (items, item_type) => {
     return items.filter(item => item.type == item_type 
@@ -33,7 +40,14 @@ module.exports = function (eleventyConfig) {
   // Was returning list of items excluding the current day
   // Fix 1 day off, minus the day of local datetime before it gets compared
   eleventyConfig.addFilter("laterItemList", (items) => {
-    return items.filter(item => DateTime.local().minus({days: 1}) <= DateTime.fromJSDate(item.data.event_startdate)
+    return items.filter(item => DateTime.local().minus({days: 1}) <= DateTime.fromJSDate(item.data.start_datetime)
+    );
+  });
+
+  // Was returning list of items excluding the current day
+  // Fix 1 day off, minus the day of local datetime before it gets compared
+  eleventyConfig.addFilter("OldItemList", (items) => {
+    return items.filter(item => DateTime.local().minus({days: 1}) > DateTime.fromJSDate(item.data.start_datetime)
     );
   });
 

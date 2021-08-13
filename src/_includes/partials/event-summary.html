@@ -1,0 +1,12 @@
+<div class="bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-400 p-5 shadow-lg rounded-md">
+    <div class="font-bold text-lg bg-white p-4 rounded-t-md rounded-t-l rounded-t-r shadow-inner ">
+        <a href="{{ event.url }}" class="block mt-4 text-xl font-semibold">{{ event.data.title }}</a>
+
+        <p class="text-sm  text-gray-400">
+        {{ event.data.start_datetime | readableDateTime }}
+        </p>
+        <p class="text-base font-normal mt-3 text-gray-500">
+        {{ event.data.description }}     
+        </p>
+    </div>
+</div>

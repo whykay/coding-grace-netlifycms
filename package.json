@@ -26,6 +26,7 @@
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
     "autoprefixer": "^10.1.0",
-    "postcss": "^8.2.10"
+    "postcss": "^8.2.10",
+    "slugify": "^1.6.0"
   }
 }
