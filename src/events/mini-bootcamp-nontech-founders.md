@@ -3,9 +3,8 @@ title: Mini-bootcamp for Non-Tech Founders
 description: "A mini-bootcamp for Non-Tech Founders covering a areas in tech while navigating the space"
 how: "Once you sign up, read the pre-requisites to set up your machine, any questions, email contact@codinggrace.com. In the meantime, you will receive a link and details on videos to view before the workshop, and how to join the session and we will make sure everyone is setup before we proceed with the workshop. And ask questions at any time during the workshop, we have mentors on hand to help you."
 author: Vicky Twomey-Lee
-date: 2021-08-04
-event_startdate: 2021-10-01T15:00:00Z
-event_enddate: 2021-10-03T16:00:00Z
+start_datetime: 2021-10-01T15:00:00Z
+end_datetime: 2021-10-03T16:00:00Z
 tags:
   - events
   - workshops
