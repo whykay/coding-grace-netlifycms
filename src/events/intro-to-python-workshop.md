@@ -10,9 +10,12 @@ tags:
   - workshops
 level: beginner-friendly
 mentors:
-  - Awesome Volunteer 1
-  - Vicky Twomey-Lee
-  - Awesome Volnteer 2
+  - name: Awesome Volunteer 1
+    url: "#"
+  - name: Vicky Twomey-Lee
+    url: "/"
+  - name: Awesome Volnteer 2
+    url: "#"
 ---
 
 ### Schedule

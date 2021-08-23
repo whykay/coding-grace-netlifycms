@@ -108,3 +108,105 @@ advisors:
     twitter: 
     linkedin: "https://www.linkedin.com/in/padraigobrien/"
     desc: "Software Engineer at Hulacorn.com"
+
+organisers:
+  - name: Blanchardstown Library
+    url: "http://www.fingalcoco.ie/community-and-leisure/libraries/find-a-library-and-check-opening-hours/blanchardstown-library/"
+    twitter: 
+    linkedin: 
+    desc: 
+  - name: Coder Dojo
+    url: "https://coderdojo.com"
+    twitter: "https://twitter.com/CoderDojo"
+    linkedin: 
+    desc: 
+  - name: Silicon Republic
+    url: "https://www.siliconrepublic.com/"
+    twitter: "https://twitter.com/siliconrepublic"
+    linkedin: 
+    desc: 
+  - name: CoderDojoGirls DCU
+    url: "https://coderdojodcu.com/girls"
+    twitter: "https://twitter.com/coderdojogirls"
+    linkedin: 
+    desc: 
+  - name: Girls Hack Ireland
+    url: "https://girlshackireland.org/"
+    twitter: "https://twitter.com/coderdojogirls"
+    linkedin: 
+    desc: 
+  - name: Dale Dunlea
+    url: 
+    twitter: 
+    linkedin: 
+    desc:
+  - name: Dublin Raspberry Pi Jam
+    url: "https://dublin-pi-jam.github.io/"
+    twitter: 
+    linkedin: 
+    desc: Runs Pi Jams in Dublin.
+  - name: Functional Kats
+    url: 
+    twitter: "https://twitter.com/functionalkats"
+    linkedin: 
+    desc:
+  - name: Irene Yeriskin
+    url: 
+    twitter: "https://twitter.com/rene_iy"
+    linkedin: 
+    desc: 
+  - name: Irish Geeks
+    url: "https://irishgeeks.github.io/"
+    twitter: 
+    linkedin: 
+    desc: 
+  - name: Kevin O'Brien
+    url: 
+    twitter: "https://twitter.com/dragonflystats"
+    linkedin: 
+    desc: 
+  - name: Lynda O'Leary
+    url: 
+    twitter: "https://twitter.com/olearylynda"
+    linkedin: 
+    desc: 
+  - name: NeuroSoc and DUCSS
+    url: 
+    twitter: "https://www.eventbrite.ie/o/neurosoc-and-ducss-18107426892"
+    linkedin: 
+    desc: 
+  - name: ReFig Team
+    url: "http://gamedevelopers.ie/diversity/"
+    twitter: 
+    linkedin: 
+    desc: 
+  - name: Serena Fritsch
+    url: 
+    twitter: "https://twitter.com/serifritsch"
+    linkedin: 
+    desc: 
+  - name: Vessy Tasheva
+    url: "https://vessy.com/diversity"
+    twitter: 
+    linkedin: 
+    desc: 
+  - name: Vue Vixens Ireland
+    url: 
+    twitter: "https://twitter.com/vuevixensirl"
+    linkedin: 
+    desc: 
+  - name: weAREhere
+    url: "https://www.facebook.com/wearehere.ireland/"
+    twitter: 
+    linkedin: 
+    desc: 
+  - name: Workday
+    url: "https://www.workday.com/en-us/pages/careers-dublin.html"
+    twitter: 
+    linkedin: 
+    desc: 
+  - name: Zita
+    url: 
+    twitter: "https://twitter.com/zitadezign"
+    linkedin: 
+    desc: 

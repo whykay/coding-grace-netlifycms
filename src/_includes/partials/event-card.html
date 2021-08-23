@@ -20,7 +20,7 @@
         <dd class="mt-1 text-sm text-gray-900">
             {% set comma = joiner() %}
             {% if mentors %}
-              {% for m in mentors|list %}{{ comma() }} {{m }}{% endfor %}
+              {% for m in mentors|list %}{{ comma() }} <a href="{{ m.url }}">{{ m.name }}</a>{% endfor %}
             {% else %} 
               TBC
             {% endif %}

@@ -10,6 +10,9 @@ tags:
   - workshops
   - beginner-friendly
   - startups
+mentors:
+  - name: Awesome Volunteer 1
+    url: "#"
 supporters:
   - org: "A Nice company"
     url: "https://example.com"
