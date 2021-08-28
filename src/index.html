@@ -31,15 +31,17 @@ path: home
         <div class="mt-3 mb-12 grid gap-16 pt-3 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12 "> 
             {% set current_events = collections.events | laterItemList | sort(attribute='data.start_datetime') | reverse %}
             {% for post in current_events %}
-                <div class=" bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-400 p-5 shadow-lg rounded-md " >
+                <div class=" bg-gradient-to-r from-yellow-400  to-yellow-500 p-5 shadow-lg rounded-md " >
                 
-                <div class="font-bold text-lg bg-white p-4 rounded-t-md rounded-t-l rounded-t-r shadow-inner">{{post.data.title}}</div>
+                <div class="font-bold text-lg bg-white p-4 rounded-t-md rounded-t-l rounded-t-r shadow-inner">
+                  <a href="{{ post.url | url }}">{{post.data.title}}</a>
+                </div>
                 <div class="text-gray-400 text-sm bg-yellow-100 p-4 ">
                     🗓 {{ post.data.start_datetime | readableDateTime }}
                 </div>
                 <div class="bg-gray-50 p-4 text-sm rounded-b-md">{{ post.data.description }}</div>
 
-                <button class="mt-5 bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 border-b-4 border-green-700 hover:border-green-500 rounded">
+                <button class="w-full  mt-5 bg-green-500 hover:bg-green-400 text-white font-bold py-2 px-4 border-b-4 border-green-700 hover:border-green-500 rounded">
                     <a href="{{ post.url | url }}">More info</a>
                 </button>
                 </div> 
