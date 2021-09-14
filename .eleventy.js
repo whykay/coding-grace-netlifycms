@@ -10,6 +10,13 @@ module.exports = function (eleventyConfig) {
   // Merge data instead of overriding
   eleventyConfig.setDataDeepMerge(true);
 
+  eleventyConfig.addFilter("addYearToEvents", (objs) => {
+    return objs.map((obj) => {
+      obj.data.year = obj.data.start_datetime.getFullYear();
+      return obj;
+    });
+  });
+
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
