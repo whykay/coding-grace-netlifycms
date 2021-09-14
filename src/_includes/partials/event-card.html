@@ -21,7 +21,7 @@
         <dd class="mt-1 text-sm text-gray-900">
             {% set comma = joiner() %}
             {% if mentors %}
-              {% for m in mentors|list %}{{ comma() }} <a href="{{ m.url }}">{{ m.name }}</a>{% endfor %}
+              {% for m in mentors|list %}{{ comma() }} <a href="{{ m.url }}">{{ m.first_name }} {{ m.last_name }}</a>{% endfor %}
             {% else %} 
               TBC
             {% endif %}
@@ -48,7 +48,7 @@
           Price
         </dt>
         <dd class="mt-1 text-sm text-gray-900">
-          FREE
+          {% if cost == 0 %}Free {% else %}{{ cost }} {% endif %}
         </dd>
       </div>
       <div class="sm:col-span-2">
@@ -56,7 +56,7 @@
           How
         </dt>
         <dd class="mt-1 text-sm text-gray-900">
-          {{ how }}
+          {% if how %}{{ how }}{% else %}TBC{% endif %}
         </dd>
       </div>
     </dl>

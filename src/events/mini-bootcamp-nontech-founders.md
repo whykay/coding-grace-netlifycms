@@ -12,6 +12,8 @@ tags:
   - startups
 mentors:
   - name: Awesome Volunteer 1
+    first_name: Awesome
+    last_name: Volunteer 1
     url: "#"
 supporters:
   - org: "A Nice company"
