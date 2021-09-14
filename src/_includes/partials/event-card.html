@@ -9,6 +9,14 @@
       <p class="mt-1 max-w-2xl text-sm text-gray-500">
         {{short_description}}
       </p>
+
+      {% if organiser %}
+      <dl>
+        <dt class="text-sm font-medium text-gray-500">Organiser</dt>
+        <dd class="text-sm text-gray-900 mb-5">{{ organiser.first_name }} {{ organiser.last_name}}
+          {% endif %} {% if organiser.url %}| 👉 <a href="{{organiser.url}}">Link</a>{% endif %}</dd>
+      </dl>
+      <div></div>
     </div>
   </div>
   
@@ -59,10 +67,12 @@
         <dd class="mt-1 text-sm text-gray-900">
           {% if "online" in tags %}
             Online
-          {% else %} 
+          {% elif "in-person" in tags %} 
             <address>
               {{ location.address1 }}, {% if location.address2 %}{{ location.address2 }}{% endif %} {{location.city | capitalize  }}, {{ location.country | capitalize }}
             </address>
+          {% else %}
+            TBC
           {% endif %}
         </dd>
       </div>
