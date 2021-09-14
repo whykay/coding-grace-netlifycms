@@ -7,7 +7,7 @@
       </h3> #}
       <p class="pt-5 text-2xl font-extrabold ">Overview: {{ title }}</p>
       <p class="mt-1 max-w-2xl text-sm text-gray-500">
-        {{description}}
+        {{short_description}}
       </p>
     </div>
   </div>
@@ -51,14 +51,34 @@
           {% if cost == 0 %}Free {% else %}{{ cost }} {% endif %}
         </dd>
       </div>
+
+      <div class="sm:col-span-1">
+        <dt class="text-sm font-medium text-gray-500">
+          Location
+        </dt>
+        <dd class="mt-1 text-sm text-gray-900">
+          {% if "online" in tags %}
+            Online
+          {% else %} 
+            <address>
+              {{ location.address1 }}, {% if location.address2 %}{{ location.address2 }}{% endif %} {{location.city | capitalize  }}, {{ location.country | capitalize }}
+            </address>
+          {% endif %}
+        </dd>
+      </div>
+
+      {% if how %}
       <div class="sm:col-span-2">
         <dt class="text-sm font-medium text-gray-500">
           How
         </dt>
         <dd class="mt-1 text-sm text-gray-900">
-          {% if how %}{{ how }}{% else %}TBC{% endif %}
+          {{ how }}
         </dd>
       </div>
+      {% endif %}
+
+    
     </dl>
   </div>
 </div>

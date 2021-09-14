@@ -71,10 +71,12 @@ title: "Allyship Workshop with Etsy and Coding Grace"
 # start_datetime: 2021-08-01T15:00:00Z
 # end_datetime: 2021-08-01T17:00:00Z
 author: Vicky Twomey-Lee
+how: 
 tags:
   - events
   - workshops
   - beginner-friendly
+  - in-person
 ---
 
 We are delighted to announce a partnered event with Etsy Ireland on Allyship. This event is open to everyone and is free to attend.
