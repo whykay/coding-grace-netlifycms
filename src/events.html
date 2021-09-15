@@ -43,7 +43,7 @@ events: {{collections.events}}
       {% for when, events in old_events | groupby("data.year") %}
         
         <div class="">
-          <h3>{{ when }} (#events: {{ events | length}})</h3>
+          <h3>{{ when }} <span class="text-sm text-gray-500">(#events: {{ events | length}})</span></h3>
           {% for event in events %}
             <div class="w-full my-2">
               <a href="{{ event.url }}" class="hover:text-yellow-500">{{event.data.title}}</a>
