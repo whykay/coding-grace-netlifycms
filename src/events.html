@@ -18,11 +18,9 @@ events: {{collections.events}}
 {% set eventlist = collections.events %}
 <div class="bg-white pt-16 pb-10 px-4 sm:px-6 lg:pt-24 lg:pb-10 lg:px-8">
   <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
-    <div>
       <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
         Current Events and Workshops
       </h2>
-    </div>
     <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">   
       {% set current_events = eventlist | laterItemList | sort(attribute='data.start_datetime') | reverse %}
 
@@ -35,44 +33,61 @@ events: {{collections.events}}
 
 <div class="bg-white pt-16 pb-10 px-4 sm:px-6 lg:pt-24 lg:pb-10 lg:px-8">
   <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
-    <div>
-      <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-        Past Events
-      </h2>
-
-    </div>
+    <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+      Past Events
+    </h2>
     <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-      {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse %}
-      {% for event in old_events %}
-        {% include "./_includes/partials/event-summary.html" %}
+      
+      
+      {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse | addYearToEvents %}
+      {% for when, events in old_events | groupby("data.year") %}
+        
+        <div class="">
+          <h3>{{ when }} (#events: {{ events | length}})</h3>
+          {% for event in events %}
+            <div class="w-full my-2">
+              <a href="{{ event.url }}" class="hover:text-yellow-500">{{event.data.title}}</a>
+              
+            </div>
+          {% endfor %}
+        </div>
       {% endfor %}
+
     </div>
   </div>
+
 </div>
 
-{# <div class="my-10">
-        <div>
-            {% for event in collections.events | sort(attribute='start_datetime') %}
-            <p>
-                {{ event.data.title }} :::: {{ event.data.start_datetime | readableDateTime }}
-            </p>
-            {% endfor %}
-        </div>
+<!-- <div class="mb-10 mx-10 p-5">
+  <h1>TESTING</h1>
+    {% set currentYear = "" %}
+    {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse | addYearToEvents %}
+    <p>foo</p>
+    <p>{{old_events}}</p>
+   
 
-      {% set eventlist = collections.events %}
-      <div class="my-5">
-      <!-- Current events -->
-      {% set current_events = eventlist | laterItemList | sort(attribute='data.start_datetime') | reverse %}
-      {% for event in current_events %}
-        <p>{{ event.data.title }} ({{ event.data.start_datetime | readableDateTime() }})</p>
-      {% endfor %}
-      </div>
+    <div class="p-1 pb-5 px-5">
+    {% for event in old_events %}
+      {% set postYear = event.data.start_datetime.getFullYear() %}
+      {% if currentYear != postYear %}
+        {% set currentYear = postYear %}
+        <h3 class="mt-5">{{ postYear }}</h3>
+      {% endif %}
+      <div><a href="{{ event.url }}">{{ event.data.title }}</a></div>
+    {% endfor %}
+  </div>
 
-            <div class="my-5">
-      <!-- Current events -->
-      {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse %}
-      {% for event in old_events %}
-        <p>{{ event.data.title }} ({{ event.data.start_datetime | readableDateTime() }})</p>
-      {% endfor %}
-      </div>
-</div> #}
+  <div class="p-1 pb-5 px-5">
+    <p>foo</p>
+    {% for when, events in old_events | groupby("data.year") %}
+    <p>Year: {{ when }}</p>
+    {% for event in events %}
+    <p>event: {{event.data.title}}</p>
+    {% endfor %}
+    {% endfor %}
+  </div>
+
+</div> -->
+
+
+
