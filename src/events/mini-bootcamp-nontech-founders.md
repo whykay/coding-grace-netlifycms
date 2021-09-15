@@ -16,12 +16,21 @@ mentors:
     first_name: Awesome
     last_name: Volunteer 1
     url: "#"
+# sponsorships:
+#   - sponsor:
+#     blurb: ""
+#     id:
+#     name: "A Nice company"
+#     url: "https://example.com"
 sponsorships:
-  - sponsor:
-    blurb: ""
-    id:
-    name: "A Nice company"
+- id: 55
+  sponsor:
+    blurb: 
+    id: 50
+    name: "A Nice company 2"
+    slug: etsy
     url: "https://example.com"
+
 partners:
   - org: "GameCraft"
     url: "https://gamecraft.it"
