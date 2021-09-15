@@ -9,7 +9,7 @@
   </div>
 </div>
 
-{% if supporters or partners %} 
+{% if supporters or partners or sponsorships %} 
 <div class="bg-white" id="supporters">
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <p class="text-xl text-center text-base font-semibold uppercase text-gray-600 tracking-wider">
@@ -19,22 +19,36 @@
       <h5>Supporters</h5>
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         {% for supporter in supporters %}
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-100">
           <a href="{{ supporter.url }}">{{ supporter.org }}</a>
         </div>
         {% endfor %}
       </div>
     {% endif %}
+
+    {% if sponsorships %}
+    <h5>Supporters</h5>
+    <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
+      {% for s in sponsorships %}
+      <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-100">
+          <a href="s.sponsor.url">{{ s.sponsor.name}}</a>
+      </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
     {% if partners %}
       <h5 class="mt-5">Partners</h5>
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         {% for partner in partners %}
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-100">
           <a href="{{ partner.url }}">{{ partner.org }}</a>
         </div>
         {% endfor %}
       </div>
     {% endif %}
+
+
 
     {# <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
       <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
@@ -70,9 +84,11 @@
     </p>
       <h5>Supporters</h5>
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
-          <a href="#">This could be you</a>
+        
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-50">
+          🏢 Interested? Contact us.
         </div>
+
       </div>
 </div>
 {% endif %}
