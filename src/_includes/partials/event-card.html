@@ -29,7 +29,15 @@
         <dd class="mt-1 text-sm text-gray-900">
             {% set comma = joiner() %}
             {% if mentors %}
-              {% for m in mentors|list %}{{ comma() }} <a href="{{ m.url }}">{{ m.first_name }} {{ m.last_name }}</a>{% endfor %}
+                {% for m in mentors|list %}
+                    {% if m.first_name %}
+                        {{ comma() }} <a href="{{ m.url }}">{{ m.first_name }} {{ m.last_name }}</a>
+                    {% elif m.user.first_name %}
+                        {{ comma() }} <a href="{{ m.user.url }}">{{ m.user.first_name }} {{ m.user.last_name }}</a>
+                    {% else %}
+                        Cannot find mentor name 🤔
+                    {% endif %}
+                {% endfor %}
             {% else %} 
               TBC
             {% endif %}
@@ -40,7 +48,7 @@
           Level
         </dt>
         <dd class="mt-1 text-sm text-gray-900">
-          {{ level }}
+          {{ levels }}
         </dd>
       </div>
       <div class="sm:col-span-1">
