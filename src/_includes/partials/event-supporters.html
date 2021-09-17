@@ -20,7 +20,7 @@
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         {% for supporter in supporters %}
         <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-100">
-          <a href="{{ supporter.url }}">{{ supporter.org }}</a>
+          <a href="{{ supporter.url }}" class="hover:text-gray-500">{{ supporter.url }}</a>
         </div>
         {% endfor %}
       </div>
@@ -29,9 +29,9 @@
     {% if sponsorships %}
     <h5>Supporters</h5>
     <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-      {% for s in sponsorships %}
+      {% for sponsorship in sponsorships %}
       <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-100">
-          <a href="s.sponsor.url">{{ s.sponsor.name}}</a>
+          <a href="{{ sponsorship.sponsor.url }}" class="hover:text-gray-500">{{ sponsorship.sponsor.name}}</a>
       </div>
       {% endfor %}
     </div>
@@ -42,7 +42,7 @@
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         {% for partner in partners %}
         <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-100">
-          <a href="{{ partner.url }}">{{ partner.org }}</a>
+          <a href="{{ partner.url }}" class="hover:text-gray-500">{{ partner.org }}</a>
         </div>
         {% endfor %}
       </div>
