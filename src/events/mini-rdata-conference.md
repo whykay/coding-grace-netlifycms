@@ -122,7 +122,7 @@ sponsorships:
   sponsorship_type: Hosting
 - id: 46
   sponsor:
-    blurb: "<img src=\"http://i2.wp.com/gamedevelopers.ie/wp-content/uploads/2016/02/silicon-Republic.jpg?w=250\"\
+    blurb: "<img src=\"https://i2.wp.com/gamedevelopers.ie/wp-content/uploads/2016/02/silicon-Republic.jpg?w=250\"\
       />\r\n\r\nSince going online in 2001, Siliconrepublic.com has gone from being\
       \ Ireland\u2019s No 1 resource for technology news, with countless awards to\
       \ its name, to one of the leading online publications in Europe with over half-a-million\
