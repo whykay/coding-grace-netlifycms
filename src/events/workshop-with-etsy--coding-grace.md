@@ -1,4 +1,5 @@
 ---
+
 cost: 0.0
 end_datetime: 2016-08-11T21:00:00Z
 event_ended: true
@@ -6,7 +7,7 @@ event_url: https://ti.to/etsy-ireland/being-an-effective-male-ally
 id: 68
 is_cancelled: false
 is_published: true
-level:
+levels:
 - Beginners
 location:
   address1: 66/67, Great Strand Street
@@ -47,10 +48,10 @@ organiser:
     id: 1
     last_name: Twomey-Lee
     username: whykay
-pub_datetime: 2016-06-27 10:38:34.691249+00:00
+pub_datetime: 2016-06-27T10:38:34.691249Z
 short_description: We are delighted to announce a partnered event with Etsy Ireland
   on Allyship. This event is open to everyone and is free to attend.
-slub: allyship-workshop-etsy-coding-grace
+slug: allyship-workshop-etsy-coding-grace
 sponsorships:
 - id: 55
   sponsor:
@@ -66,17 +67,12 @@ sponsorships:
     url: https://www.etsy.com/ie/about
   sponsorship_type: Hosting, food & Trainers
 start_datetime: 2016-08-11T19:00:00Z
-title: "Allyship Workshop with Etsy and Coding Grace"
-
-# start_datetime: 2021-08-01T15:00:00Z
-# end_datetime: 2021-08-01T17:00:00Z
-author: Vicky Twomey-Lee
-how: 
+title: Allyship Workshop with Etsy & Coding Grace
 tags:
   - events
   - workshops
-  - beginner-friendly
   - in-person
+
 ---
 
 We are delighted to announce a partnered event with Etsy Ireland on Allyship. This event is open to everyone and is free to attend.
