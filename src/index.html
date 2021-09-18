@@ -57,7 +57,7 @@ path: home
         </div>
         <div class="mt-3 grid gap-16 pt-3 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12"> 
     
-        {% for post in postslist | sort(reverse=true, attribute='date') %}
+        {% for post in postslist | sort(reverse=true, attribute='published') %}
         <div class="bg-gray-50 p-5 shadow-lg">
           <!--TAGS-->
           <div>
