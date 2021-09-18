@@ -64,7 +64,7 @@
           Price
         </dt>
         <dd class="mt-1 text-sm text-gray-900">
-          {% if cost == 0 %}Free {% else %}{{ cost }} {% endif %}
+          {% if cost == 0 %}Free {% else %}€{{ cost }} {% endif %}
         </dd>
       </div>
 
@@ -77,7 +77,7 @@
             Online
           {% elif "in-person" in tags %} 
             <address>
-              {{ location.address1 }}, {% if location.address2 %}{{ location.address2 }}{% endif %} {{location.city | capitalize  }}, {{ location.country | capitalize }}
+              {{ location.venue }}, {{ location.address1 }}, {% if location.address2 %}{{ location.address2 }}{% endif %} {{location.city | capitalize  }}, {{ location.country | capitalize }}
             </address>
           {% else %}
             TBC
