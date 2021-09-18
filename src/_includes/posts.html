@@ -7,16 +7,43 @@ prism: true
     <div class="pb-5 mb-5 border-b border-gray-100">
         <h1 class="font-bold text-5xl">{{title}}</h1>
         <p class="text-center text-base leading-6 font-medium text-gray-500">
-            <time> {{ date | readableDate }}
-                by
-                <a>{{ author }}</a>
 
+            <time>
+                {% if date %} 
+                    {{ date | readableDate }}
+                {% elif published %}
+                    {{ published | readableDate }}
+                {% else %}
+                    Published sometime this year
+                {% endif %}
+                by
+                {% if author.first_name %}
+                    {{ author.first_name }} {{author.last_name}}
+                {% elif author %}
+                    {{ author }}
+                {% else %}
+                    Coding Grace
+                {% endif %}
             </time>
         </p>
 
     </div>
+    
+    {% if event %}
+    <div class="bg-blue-50 my-10 p-5 shadow-md">
+        👉 Related to event: <a href="/events/{{ event.slug }}/{{ event.id }}" class="hover:text-gray-500">{{ event.title }}</a>
+    </div>
+    {% endif %}
+
     <article class="prose lg:prose-xl my-4 mx-auto">
         {{ content | safe }}
     </article>
 
+    {% if author.blurb %}
+    <div class="bg-gray-50 my-10 p-5 shadow-md">
+        <h1 class="text-5xl font-extrabold">About Author</h1>
+        <div class="my-5">{{ author.blurb }}</div>
+        <div>👉 <a href="{{author.url}}" class="hover:text-gray-500">{{author.url}}</a></div>
+    </div>
+    {% endif %}
 </div>
