@@ -92,10 +92,22 @@ path: home
             </div>
             <div class="ml-3">
               <p class="text-sm font-medium text-gray-900">
-                <a href="#">{{ post.data.author }}</a>
+                {% if post.data.author.first_name %}
+                  {{ post.data.author.first_name }} {{ post.data.author.last_name }}
+                {% elif post.data.author %}
+                  {{ post.data.author }}
+                {% else %}
+                  Coding Grace
+                {% endif %}
               </p>
               <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-16">{{ post.data.date | readableDate }}</time>
+                <time datetime="">
+                {% if post.data.date %}
+                  {{ post.data.date | readableDate }}
+                {% elif post.data.published %}
+                  {{ post.data.published | readableDate }}
+                {% endif %}
+                </time>
               </div>
             </div>
           </div>
