@@ -42,7 +42,7 @@ events: {{collections.events}}
       {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse | addYearToEvents %}
       {% for when, events in old_events | groupby("data.year") | dictsort  |reverse %}
         
-        <div class="">
+        <div class="bg-gray-50 p-5 shadow-md ">
           <h3>{{ when }} <span class="text-sm text-gray-500">(#events: {{ events | length}})</span></h3>
           {% for event in events %}
             <div class="w-full my-2">
