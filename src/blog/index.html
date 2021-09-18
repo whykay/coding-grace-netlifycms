@@ -19,8 +19,14 @@ layout: blog
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
                     {{ post.date | readableDate }}
-                    by
-                    <a>{{ post.data.author }}</a>
+                    by 
+                    {% if post.data.author.first_name  %}
+                        {{ post.data.author.first_name  }} {{ post.data.author.last_name }}
+                    {% elif post.data.author%}
+                        {{ post.data.author }} 
+                    {% else %}
+                        Coding Grace
+                    {% endif %}
 
                 </time>
             </p>
