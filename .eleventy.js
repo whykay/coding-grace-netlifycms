@@ -3,12 +3,24 @@ const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
 
+// via https://11ty.rocks/eleventyjs/content/
+const markdownIt = require("markdown-it");
+
+
 module.exports = function (eleventyConfig) {
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);
 
   // Merge data instead of overriding
   eleventyConfig.setDataDeepMerge(true);
+
+  // via https://11ty.rocks/eleventyjs/content/
+  const md = new markdownIt({
+    html: true,
+  });
+  eleventyConfig.addFilter("markdown", (content) => {
+    return md.render(content);
+  });
 
   eleventyConfig.addFilter("addYearToEvents", (objs) => {
     return objs.map((obj) => {
