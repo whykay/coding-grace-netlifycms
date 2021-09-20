@@ -37,9 +37,11 @@ events: {{collections.events}}
       Past Events
     </h2>
     <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-      
-      
       {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse | addYearToEvents %}
+      <div>
+        Following are all the events we have run to date, in total we have run {{ old_events | length }} events.
+      </div>
+
       {% for when, events in old_events | groupby("data.year") | dictsort  |reverse %}
         
         <div class="bg-gray-50 p-5 shadow-md ">
