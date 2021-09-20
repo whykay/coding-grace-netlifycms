@@ -254,7 +254,7 @@ data: people, organiser_details
 {% set people_details = organiser_details %}
 <div class="mb-10" id="organisers">
     <h3 class="font-semibold tracking-tight sm:text-4xl text-center">Organisers</h3>
-    <p class="py-5 text-center">🌈 These are the amazing people who helped organise and are the main facilitators of Coding Grace events and workshops.</p>
+    <p class="py-5 text-center">🌈 These are {{ people_details | length }} amazing people/orgs who helped organise and are the main facilitators of Coding Grace events and workshops.</p>
     {% include "partials/general-people.html" %}
 </div>
 
@@ -264,7 +264,7 @@ data: people, organiser_details
     <h3 class="font-semibold tracking-tight sm:text-4xl text-center">Mentors</h3>
     <div class="py-5 text-center">
       <div class="">
-        🌈 Our workshops wouldn't be able to run without all these amazing volunteers. 
+        🌈 Our workshops wouldn't be able to run without all {{ people_details | length }} of these amazing volunteers. 
       </div>
       <div class="">
         Interested in mentoring at one of our workshops? You can <a href="https://docs.google.com/forms/d/12XbtEtgY_V1quYNgD3SHMPcXB2kDiNHzRl7FvVIaISc/viewform?usp=send_form" class="text-gray-500 hover:text-gray-600 bg-yellow-100 ">apply here</a>.
