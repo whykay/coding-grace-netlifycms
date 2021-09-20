@@ -1,0 +1,33 @@
+
+    <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
+    {# {% for member in people.organisers %} #}
+    {% for key, dets in people_details %}
+    <li class="col-span-1 bg-yellow-50 rounded-lg shadow divide-y divide-gray-200 ">
+        <div class="w-full flex items-center justify-between p-6 space-x-6 bg-gradient-to-r from-yellow-200 to-yellow-300">
+        <div class="flex-1 ">
+            <div class="flex items-center space-x-3">
+            <h3 class="text-gray-900 text-lg font-strong flex-wrap ">❤️ {{ dets.first_name }} {{ dets.last_name }}</h3>
+            </div>
+            <p class="mt-1 text-gray-500 text-sm truncate">{{ member.desc }}</p>
+        </div>
+        </div>
+        <div>
+        <div class="-mt-px flex divide-x divide-gray-200">
+        
+            <ul class="flex justify-center space-x-5 mt-2">
+            {% if dets.url %}
+            <li class="py-5 pl-5">
+                <a href="{{ dets.url }}" class="text-gray-400 text-sm  hover:text-gray-500">
+   
+                {{ dets.url }}
+                </a>
+            </li>
+            {% endif %}
+            </ul>
+        </div>
+        </div>
+    </li>
+    {% endfor %}
+    <!-- More people... -->
+    </ul>
+
