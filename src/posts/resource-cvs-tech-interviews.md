@@ -2,6 +2,7 @@
 title: Why do we have CVs?
 description: Note that this post is for direct hiring managers and job seekers, not recruiters who normally filter CVs and resumés.
 date: 2021-04-16T15:13:13.021Z
+published: 2021-04-16T15:13:13.021Z
 author: Vicky Twomey-Lee
 tags: 
     - career

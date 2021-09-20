@@ -3,6 +3,7 @@ title: 📢 Welcome to our new site
 description: A new site, and an exciting announcement
 author: Vicky Twomey-Lee
 date: 2021-04-11
+published: 2021-04-11
 tags:
   - announcements
   - news
