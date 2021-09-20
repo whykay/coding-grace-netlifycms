@@ -1,0 +1,7 @@
+{
+  "name": "Zalando",
+  "url": "https://tech.zalando.com/",
+  "slug": "zalando",
+  "id": 45,
+  "blurb": "<a data-flickr-embed=\"true\"  href=\"https://www.flickr.com/photos/whykay/25456893516/in/dateposted-public/\" title=\"logo_zalando_all_sRGB\"><img src=\"https://farm2.staticflickr.com/1659/25456893516_2122d92830_m.jpg\" width=\"240\" height=\"44\" alt=\"logo_zalando_all_sRGB\"></a><script async src=\"//embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>\r\n\r\nZalando is Europe\u2019s leading online fashion platform, with more than 16 million customers in 15 countries. Our department has built most of our platform in-house, using open source and cutting-edge technologies such as Scala, Cassandra, Clojure, and React.js. We work in small, agile, autonomous teams and follow principles that enable us to produce the most delightful shopping experiences possible."
+}

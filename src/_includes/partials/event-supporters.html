@@ -26,12 +26,18 @@
       </div>
     {% endif %}
 
+    {# From imported events #}
     {% if sponsorships %} 
     <h5>Supporters</h5>
     <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
       {% for sponsorship in sponsorships %}
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-yellow-100 shadow-md hover:bg-yellow-200">
-          <a href="{{ sponsorship.sponsor.url }}" class="hover:text-gray-500">{{ sponsorship.sponsor.name}}</a>
+      <div class="col-span-1 flex justify-center p-6 m-2 bg-yellow-100 shadow-md hover:bg-yellow-200">
+        {% for key, dets in sponsor_details %}
+          {% if key == sponsorship.sponsor %}
+            <a href="{{ dets.url }}" class="hover:text-gray-500">{{ dets.name}}</a>
+          {% endif %}
+        {% endfor %}
+          {# <a href="{{ sponsorship.sponsor.url }}" class="hover:text-gray-500">{{ sponsorship.sponsor.name}}</a> #}
       </div>
       {% endfor %}
     </div>

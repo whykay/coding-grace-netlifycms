@@ -22,7 +22,7 @@
         <dl class="space-y-12">
 
             {% if faq %}
-            <div>
+            <div id="additional-info">
                 <dt class="text-lg leading-6 font-medium text-gray-900">
                     Additional info for this workshop
                 </dt>
@@ -92,13 +92,21 @@
                 <dd>
                     <dl>
                     {% for sponsorship in sponsorships %}
-                        <dt class="text-base">
-                            <div class="font-medium underline ">{{ sponsorship.sponsor.name }} </div>
-                        </dt>
-                        <dd>
-                            <div class="text-sm">{{ sponsorship.sponsor.blurb | safe}}</div>
-                            <div class="text-sm">👉 {{sponsorship.sponsor.url }}</div>
-                        </dd>
+                        {% if sponsorship.sponsor in sponsor_details %}
+                            {% for key, dets in sponsor_details %}
+                                {% if key == sponsorship.sponsor %}
+                                <dt class="text-base text-gray-500">
+                                    {{ dets.name }}
+                                </dt>
+                                <dd>
+                                    <div>{{ dets.blurb | safe}}</div>
+                                    <div>
+                                        <a href="{{ dets.url }}">{{ dets.url }}</a>
+                                    </div>
+                                </dd>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
                     {% endfor %}
                     </dl>
                 </dd>
@@ -106,7 +114,7 @@
             {% endif %}
 
             {% if organiser %}
-            <div id="about-organiser">
+            <div id="about-organiser" class="">
                 <dt class="text-lg leading-6 font-medium text-gray-900">
                     More about the organiser
                 </dt>
@@ -117,12 +125,23 @@
                         <dt>{{ dets.first_name }} {{ dets.last_name }}</dt>
                         <dd class="text-sm text-gray-900">
                             <div>
-                                <div>{{ dets.blurb }}</div>
+                                <div class="mt-2">
+                                {% if dets.blurb %}
+                                    {{ dets.blurb }}
+                                {% else %}
+                                    Read about them above, we have no blurb, but these are awesome people. ❤️
+                                {% endif %}
+                                </div>
+                                {% if dets.url %}
                                 <div>👉 <a href="{{ dets.url }}">{{ dets.url }}</a></div>
+                                {% endif %}
                             </div>
+
+                            {% if dets.email %}
                             <div class="mt-5">
                                 You can contact the organiser at: <a href="mailto:{{ dets.email }}">{{ dets.email }}</a>
                             </div>
+                            {% endif %}
                         </dd>
                     </dl>
                     {% endif %}
