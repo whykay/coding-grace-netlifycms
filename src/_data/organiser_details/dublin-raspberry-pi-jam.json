@@ -1,0 +1,24 @@
+{
+  "id": 18,
+  "user_id": -1,
+  "last_name": " ",
+  "contact_number": "",
+  "url": "https://dublin-pi-jam.github.io/",
+  "first_name": "Dublin Raspberry Pi Jam",
+  "blurb": "We run Pi Jams around Dublin. These events are free and open to folks from 18 years onwards. All levels experiences welcome.",
+  "email": "",
+  "slug": "dublin-raspberry-pi-jam",
+  "user_username": "AnonymousUser",
+  "user": {
+    "id": -1,
+    "username": "AnonymousUser",
+    "last_name": "",
+    "is_staff": false,
+    "date_joined": "2014-06-25T22:04:33.749814+00:00",
+    "is_superuser": false,
+    "last_login": "2014-06-25T22:04:33.749735+00:00",
+    "first_name": "",
+    "email": "",
+    "is_active": true
+  }
+}

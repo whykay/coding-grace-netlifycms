@@ -1,0 +1,24 @@
+{
+  "id": 13,
+  "user_id": -1,
+  "last_name": "Geeks",
+  "contact_number": "",
+  "url": "",
+  "first_name": "Irish",
+  "blurb": "A collective of user group organisers (Coding Grace, Elm User Group Dublin, Python Ireland, Ruby Ireland, PyLadies Dublin and more) who organise collaborative events like Techie Charity Table Quiz.",
+  "email": "irishgeeks@eventgeek.ie",
+  "slug": "irish-geeks",
+  "user_username": "AnonymousUser",
+  "user": {
+    "id": -1,
+    "username": "AnonymousUser",
+    "last_name": "",
+    "is_staff": false,
+    "date_joined": "2014-06-25T22:04:33.749814+00:00",
+    "is_superuser": false,
+    "last_login": "2014-06-25T22:04:33.749735+00:00",
+    "first_name": "",
+    "email": "",
+    "is_active": true
+  }
+}

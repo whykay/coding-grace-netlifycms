@@ -1,0 +1,24 @@
+{
+  "id": 21,
+  "user_id": -1,
+  "last_name": "Tasheva",
+  "contact_number": "",
+  "url": "https://vessy.com/diversity",
+  "first_name": "Vessy",
+  "blurb": "Founder of Vessy.com \u2022 Author of \"2019 Diversity in the Workplace Report: vessy.com/diversity \u2022 Diversity & Inclusion Consultant",
+  "email": "",
+  "slug": "vessy-tasheva",
+  "user_username": "AnonymousUser",
+  "user": {
+    "id": -1,
+    "username": "AnonymousUser",
+    "last_name": "",
+    "is_staff": false,
+    "date_joined": "2014-06-25T22:04:33.749814+00:00",
+    "is_superuser": false,
+    "last_login": "2014-06-25T22:04:33.749735+00:00",
+    "first_name": "",
+    "email": "",
+    "is_active": true
+  }
+}

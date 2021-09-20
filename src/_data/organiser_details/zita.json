@@ -1,0 +1,24 @@
+{
+  "id": 12,
+  "user_id": 4,
+  "last_name": " ",
+  "contact_number": "",
+  "url": "https://twitter.com/zitadezign",
+  "first_name": "zita",
+  "blurb": "",
+  "email": "codinggwexford@gmail.com",
+  "slug": "zita",
+  "user_username": "zita",
+  "user": {
+    "id": 4,
+    "username": "zita",
+    "last_name": "",
+    "is_staff": true,
+    "date_joined": "2016-07-08T13:49:38+00:00",
+    "is_superuser": false,
+    "last_login": null,
+    "first_name": "Zita",
+    "email": "",
+    "is_active": true
+  }
+}

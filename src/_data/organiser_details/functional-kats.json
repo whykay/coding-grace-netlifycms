@@ -1,0 +1,24 @@
+{
+  "id": 11,
+  "user_id": -1,
+  "last_name": "Kats",
+  "contact_number": "",
+  "url": "https://twitter.com/functionalkats",
+  "first_name": "Functional",
+  "blurb": "This is a group for anyone interested in Functional Programming. All levels of ability and experience are welcome. We meet monthly and together we'll figure out how to rewire our brains to think and code functionally.\r\n\r\nFunctional Kats started in January 2014 and has been going since, follow @functionalKats on twitter to learn more about stuff :D\r\n\r\nMeetups generally begin with a programming challenge. You are encouraged to solve the problem in any language, ideally in collaboration with other attendees. After a break for some refreshments project a selection of the solutions on to the big screen for discussion.\r\n\r\nFrom time to time we change the format to more of a talk/workshop, given by either a member of the group, or an outside speaker. We try to ensure that talks are tailored to allow for some element of hands on coding.",
+  "email": "functionalkats@gmail.com",
+  "slug": "functional-kats",
+  "user_username": "AnonymousUser",
+  "user": {
+    "id": -1,
+    "username": "AnonymousUser",
+    "last_name": "",
+    "is_staff": false,
+    "date_joined": "2014-06-25T22:04:33.749814+00:00",
+    "is_superuser": false,
+    "last_login": "2014-06-25T22:04:33.749735+00:00",
+    "first_name": "",
+    "email": "",
+    "is_active": true
+  }
+}

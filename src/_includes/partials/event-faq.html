@@ -40,25 +40,17 @@
                 <dd class="mt-2 text-base text-gray-500">
                     <dl>
                     {% for mentor in mentors %}
-                        {% if mentor.first_name %}
-                            <dt>
-                                🌈 {{ mentor.first_name}} {{ mentor.last_name}}
-                            </dt>
-                            <dd class="text-gray-900 mb-2 text-sm mt-1">
-                                <div>{{mentor.blurb | safe}}</div>
-                                <div><a href="{{ mentor.url }}">{{ mentor.url }}</a></div>
-                            </dd>
-                        {% elif mentor.user.first_name %}
-                            <dt>
-                            🌈 {{ mentor.user.first_name}} {{ mentor.user.last_name}}
-                            </dt>
-                            <dd class="text-gray-900 mb-2 text-sm mt-1">
-                                <div>{{mentor.user.blurb | safe}}</div>
-                                <div><a href="{{ mentor.user.url }}">{{ mentor.user.url }}</a></div>
-                            </dd>
-                        {% else %}
-                            Cannot find mentor name 🤔 
-                        {% endif %}
+                        {% for key, dets in mentor_details %}
+                            {% if mentor == key %}
+                                <dt>
+                                🌈 {{ dets.first_name}} {{ dets.last_name}}
+                                </dt>
+                                <dd class="text-gray-900 mb-2 text-sm mt-1">
+                                    <div>{{dets.blurb | safe}}</div>
+                                    <div><a href="{{ dets.url }}">{{ dets.url }}</a></div>
+                                </dd>
+                            {% endif %}
+                        {% endfor %}
                     {% endfor %}
                     </dl>
                 </dd>

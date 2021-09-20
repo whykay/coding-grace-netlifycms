@@ -1,0 +1,24 @@
+{
+  "id": 15,
+  "user_id": -1,
+  "last_name": "Library",
+  "contact_number": "+35318905563",
+  "url": "http://www.fingalcoco.ie/community-and-leisure/libraries/find-a-library-and-check-opening-hours/blanchardstown-library/",
+  "first_name": "Blanchardstown",
+  "blurb": "",
+  "email": "blanchlibrary@fingal.ie",
+  "slug": "blanchardstown-library",
+  "user_username": "AnonymousUser",
+  "user": {
+    "id": -1,
+    "username": "AnonymousUser",
+    "last_name": "",
+    "is_staff": false,
+    "date_joined": "2014-06-25T22:04:33.749814+00:00",
+    "is_superuser": false,
+    "last_login": "2014-06-25T22:04:33.749735+00:00",
+    "first_name": "",
+    "email": "",
+    "is_active": true
+  }
+}
