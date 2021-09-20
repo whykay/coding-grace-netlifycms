@@ -41,7 +41,7 @@
                     <dl>
                     {% for mentor in mentors %}
                         {% for key, dets in mentor_details %}
-                            {% if mentor == key %}
+                            {% if key == mentor %}
                                 <dt>
                                 🌈 {{ dets.first_name}} {{ dets.last_name}}
                                 </dt>
@@ -105,16 +105,38 @@
             </div>
             {% endif %}
 
-            <div>
+            {% if organiser %}
+            <div id="about-organiser">
                 <dt class="text-lg leading-6 font-medium text-gray-900">
-                    If you have any other questions:
+                    More about the organiser
                 </dt>
                 <dd class="mt-2 text-base text-gray-500">
-                    {% if organiser.email %}
-                        You can contact <span class="font-black">{{organiser.first_name}} {{organiser.last_name }}</span> by emailing <a href="mailto:{{organiser.email}}">{{organiser.email}}</a>
-                    {% else %}
-                        Email: <a href="mailto:contact@codinggrace.com">contact@codinggrace.com</a>
+                {% for key, dets in organiser_details %}
+                    {% if key == organiser %}
+                    <dl>
+                        <dt>{{ dets.first_name }} {{ dets.last_name }}</dt>
+                        <dd class="text-sm text-gray-900">
+                            <div>
+                                <div>{{ dets.blurb }}</div>
+                                <div>👉 <a href="{{ dets.url }}">{{ dets.url }}</a></div>
+                            </div>
+                            <div class="mt-5">
+                                You can contact the organiser at: <a href="mailto:{{ dets.email }}">{{ dets.email }}</a>
+                            </div>
+                        </dd>
+                    </dl>
                     {% endif %}
+                {% endfor %}
+                </dd>
+            </div>
+            {% endif %}
+
+            <div>
+                <dt class="text-lg leading-6 font-medium text-gray-900">
+                    If you have any other general questions:
+                </dt>
+                <dd class="mt-2 text-base text-gray-500">               
+                    Email: <a href="mailto:contact@codinggrace.com">contact@codinggrace.com</a>
                 </dd>
             </div>
 

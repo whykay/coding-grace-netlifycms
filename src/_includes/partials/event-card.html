@@ -13,10 +13,15 @@
       {% if organiser %}
       <dl>
         <dt class="text-sm font-medium text-gray-500">Organiser</dt>
-        <dd class="text-sm text-gray-900 mb-5">{{ organiser.first_name }} {{ organiser.last_name}}
-          {% endif %} {% if organiser.url %}| 👉 <a href="{{organiser.url}}">Link</a>{% endif %}</dd>
+        <dd class="text-sm text-gray-900 mb-5">
+        {% for key, dets in organiser_details %}
+          {% if key == organiser %}
+            <a href="#about-organiser">{{ dets.first_name }} {{ dets.last_name }}</a>
+          {% endif %}
+        {% endfor %}
+        </dd>
       </dl>
-      <div></div>
+      {% endif  %}
     </div>
   </div>
   
