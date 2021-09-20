@@ -1,0 +1,21 @@
+{
+  "last_name": "O'Brien",
+  "first_name": "Kevin",
+  "url": "https://twitter.com/dragonflystats",
+  "user_id": 4,
+  "id": 19,
+  "blurb": "PhD Candidate in Statistics, who has been teaching R in the university of Limerick for 4 years. Also an organizer of the [Dublin R user group](http://www.meetup.com/DublinR/) ,with specific responsibility for workshops.",
+  "slug": "kevin-o-brien",
+  "organiser_slug": "kevin-o-brien",
+  "organiser": {
+    "id": 4,
+    "user_id": 3,
+    "last_name": "O'Brien",
+    "contact_number": "",
+    "url": "https://twitter.com/dragonflystats",
+    "first_name": "Kevin",
+    "blurb": "PhD Candidate in Statistics, who has been teaching R in the university of Limerick for 4 years. Also an organizer of the [Dublin R user group](http://www.meetup.com/DublinR/) ,with specific responsibility for workshops.",
+    "email": "kobriendublin@gmail.com",
+    "slug": "kevin-o-brien"
+  }
+}
