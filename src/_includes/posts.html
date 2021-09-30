@@ -9,9 +9,7 @@ prism: true
         <p class="text-center text-base leading-6 font-medium text-gray-500">
 
             <time>
-                {% if date %} 
-                    {{ date | readableDate }}
-                {% elif published %}
+                {% if published %}
                     {{ published | readableDate }}
                 {% else %}
                     Published sometime this year
