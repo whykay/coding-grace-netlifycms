@@ -1,8 +1,19 @@
 ---
+
 layout: default
-events: {{collections.news}}
+
+pagination:
+  data: collections.news
+  size: 4
+
 ---
 
+<div>
+{# ssss {{pagination.items}} #}
+{% for p in pagination.items | sort(reverse=true, attribute='data.published')%}
+    <div>{{p.data.title}}</div>
+{% endfor %}
+</div>
 
 <div class="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
   <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
@@ -16,7 +27,7 @@ events: {{collections.news}}
       </p>
     </div>
     <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-        {% set postslist = collections.news | sort(attribute='data.published') | reverse  %}
+        {% set postslist = collections.news | sort(reverse=true, attribute='data.published')  %}
         
         {# 
             The following is not supported in nunjucks, only in jinja 
@@ -25,9 +36,13 @@ events: {{collections.news}}
             {% for post in postslist if loop.index0 < 3 %}
         #}
 
+
+
         {% for post in postslist %}
+        {# {% for i in range(0, 3) %} #}
+        {# {% set post = postslist[i] %} #}
         <div>
-            {% if loop.index0 < 4 %}
+            {# {% if loop.index0 < 4 %} #}
             <a href="{{ post.url | url }}" class="block mt-4">
                 <p class="text-xl font-semibold text-gray-900">
                     {{ post.data.title }}
@@ -54,14 +69,21 @@ events: {{collections.news}}
                     </div>
                 </div>
             </div>
-            {% endif %}
+            {# {% endif %} #}
         </div>
         {% endfor %}
     </div>
   </div>
 </div>
 
-
+<nav aria-labelledby="my-pagination">
+  <h2 id="my-pagination">This is my Pagination</h2>
+  <ol>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a></li>
+{%- endfor %}
+  </ol>
+</nav>
 
 {# <section class="mt-15">
     {% set postslist = collections.news %}
