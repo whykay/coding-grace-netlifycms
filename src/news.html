@@ -4,7 +4,7 @@ layout: default
 
 pagination:
   data: collections.news
-  size: 4
+  size: 6
 
 ---
 
@@ -27,7 +27,7 @@ pagination:
       </p>
     </div>
     <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
-        {% set postslist = collections.news | sort(reverse=true, attribute='data.published')  %}
+        {# {% set postslist = collections.news | sort(reverse=true, attribute='data.published')  %} #}
         
         {# 
             The following is not supported in nunjucks, only in jinja 
@@ -37,8 +37,9 @@ pagination:
         #}
 
 
+        {% for post in pagination.items | sort(reverse=true, attribute='data.published')%}
+        {# {% for post in postslist %} #}
 
-        {% for post in postslist %}
         {# {% for i in range(0, 3) %} #}
         {# {% set post = postslist[i] %} #}
         <div>
