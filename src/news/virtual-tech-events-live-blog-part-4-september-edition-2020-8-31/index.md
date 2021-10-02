@@ -513,7 +513,7 @@ I've decided to add this section as it might be helpful for others who are looki
 			<tbody>	
 				<tr>
 					<td style="width:20%;">Thu Sep 10, 18:00 - 21:00</td>
-					<td style="width:40%>
+					<td style="width:40%">
 						<a href="https://www.eventbrite.ie/e/startups4axs-empowering-founders-of-diverse-abilities-tickets-107702292456">Hackaccess: Startups4AXS: Empowering Founders of Diverse Abilities</a> 🇮🇪
 					</td>
 					<td style="width:40%"></td>
