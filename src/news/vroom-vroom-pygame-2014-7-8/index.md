@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-07-08
 event:
   id: 24
   short_description: "Learn how to use Python and pyGame to create a simple 2D motoring\

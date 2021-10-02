@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-06-13
 event:
   id: 49
   short_description: "We are partnering with Design, Print and Packaging Skillnet,\

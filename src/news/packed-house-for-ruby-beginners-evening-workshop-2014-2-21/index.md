@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-02-21
 event:
   id: 10
   short_description: Our first Ruby workshop! Bring your laptop with Ruby installed.

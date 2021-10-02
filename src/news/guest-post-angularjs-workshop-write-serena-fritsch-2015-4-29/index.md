@@ -9,6 +9,7 @@ author:
   last_name: Fritsch
   slug: serena-fritsch
   url: https://twitter.com/serifritsch
+date: 2015-04-29
 event:
   id: 43
   short_description: GDG Dublin has invited us to run an introduction to AngularJS.

@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-01-24
 event:
   id: 13
   short_description: "A happy new year to everyone! What better way than to start\

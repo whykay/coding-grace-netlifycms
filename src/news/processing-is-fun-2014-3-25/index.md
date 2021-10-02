@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-03-25
 event:
   id: 6
   short_description: "I'm delighted to announce that\_Stephen Howell will be mentoring\

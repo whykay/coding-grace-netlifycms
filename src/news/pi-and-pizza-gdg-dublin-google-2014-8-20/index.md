@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-08-20
 event:
   id: 31
   short_description: Coding Grace is delighted to be partners with GDG (Google Developer

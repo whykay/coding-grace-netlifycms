@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2013-11-15
 event:
   id: 20
   short_description: "I'm happy to announce that our second workshop has been confirmed.\

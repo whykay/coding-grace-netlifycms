@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2017-03-24
 event:
   id: 82
   short_description: "Let's demystify jobs in tech. We invited the following guests\

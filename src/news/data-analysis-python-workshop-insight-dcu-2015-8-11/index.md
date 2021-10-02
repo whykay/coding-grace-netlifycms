@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-08-11
 event:
   id: 52
   short_description: "We are delighted to have Kevin O'Brien back again to run another\

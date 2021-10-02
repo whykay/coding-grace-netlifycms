@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2016-12-05
 event:
   id: 79
   short_description: That's right, the Irish Geeks techie table quiz is back! Our

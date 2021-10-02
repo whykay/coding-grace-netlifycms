@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2016-03-12
 event:
   id: 62
   short_description: 'In partnership with Dublin R User Group, Women in R Taskforce,

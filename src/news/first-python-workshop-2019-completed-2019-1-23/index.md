@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2019-01-23
 event:
   id: 100
   short_description: Happy New Year! We are delighted to kick-start 2019 with our

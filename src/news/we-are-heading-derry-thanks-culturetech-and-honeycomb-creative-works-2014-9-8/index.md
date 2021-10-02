@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-09-08
 event:
   id: 28
   short_description: "**Level:** Beginners | **FREE**\r\n\r\nCoding Grace is visiting\

@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2016-08-04
 event:
   id: 72
   short_description: 'This diversity-friendly workshop is the first part of a series

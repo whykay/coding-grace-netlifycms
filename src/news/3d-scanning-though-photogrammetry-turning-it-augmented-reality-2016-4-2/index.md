@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2016-04-02
 event:
   id: 66
   short_description: An Introduction to 3D scanning through Photogrammetry - Creating

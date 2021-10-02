@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2017-03-15
 event:
   id: 80
   short_description: Kats Conf is delighted to announce Coding Grace and Workday are

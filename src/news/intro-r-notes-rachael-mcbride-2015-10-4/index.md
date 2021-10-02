@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-10-04
 event:
   id: 55
   short_description: 'R is one of the most widely used programming language in the

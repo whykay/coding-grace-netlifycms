@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-04-14
 event:
   id: 4
   short_description: "Join Matthew McCullough from the GitHub Training team for an\

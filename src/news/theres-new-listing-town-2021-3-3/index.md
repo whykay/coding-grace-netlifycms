@@ -1,31 +1,32 @@
 ---
 
 author:
-  blurb: "Pythonista, but normally found organising various tech events, and now heavily
+  blurb: Pythonista, but normally found organising various tech events, and now heavily
     involved in diversity initiatives like Coding Grace, PyLadies Dublin, and Women
-    in Technology and Science (WITS Ireland)."
-  contact_number: "+353 86 150 2003"
-  email: "vicky@codinggrace.com"
+    in Technology and Science (WITS Ireland).
+  contact_number: +353 86 150 2003
+  email: vicky@codinggrace.com
   first_name: Vicky
   id: 1
   last_name: Twomey-Lee
   slug: vicky-twomey-lee
-  url: "http://about.me/whykay"
+  url: http://about.me/whykay
   user:
-    email: "whykay@gmail.com"
+    email: whykay@gmail.com
     first_name: Vicky
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2021-03-03
 id: 190
 is_published: true
 published: 2021-03-03T23:42:00Z
-short_description: "For many years I have been curating list of diversity in tech groups
+short_description: For many years I have been curating list of diversity in tech groups
   and its events as well as general tech events around Ireland and Northern Ireland.
   I finally did it, I made a wee site to help me keep going with the curation but
-  without all the hand-coding for every change."
+  without all the hand-coding for every change.
 slug: theres-new-listing-town
-title: "There's a new listing in town"
+title: "There's a new listing in town \U0001F606"
 ---
 
 For many years I have been curating list of diversity in tech groups and its events as well as general tech events around Ireland and Northern Ireland. I finally did it, I made a wee site to help me keep going with the curation but without all the hand-coding for every change.
@@ -102,8 +103,7 @@ Found this simpler explanation of filters after a bit of searching:
 ### Sorting in Nunjucks
 ``
 \{% for group in groups | sort(attribute=‘name’)%\}
-``
-
+`` 
 
 * [Stackoverflow:How can I sort by date with Nunjucks?
 ](https://stackoverflow.com/questions/30448107/how-can-i-sort-by-date-with-nunjucks)

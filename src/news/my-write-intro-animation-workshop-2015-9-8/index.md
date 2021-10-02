@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-09-08
 event:
   id: 54
   short_description: This beginners workshop will be mentored by Daniel Spencer (Giant

@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2013-06-08
 event:
   id: 15
   short_description: "An introduction to the statistical programming language R, aimed\

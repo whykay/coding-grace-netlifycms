@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2017-02-26
 event:
   id: 77
   short_description: Kats Conf 2 is a conference taking place in Dublin who's main

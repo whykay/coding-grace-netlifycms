@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-07-01
 event:
   id: 1
   short_description: As part of /GLITCH festival at RUA RED we are running a workshop

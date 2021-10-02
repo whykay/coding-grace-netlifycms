@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-07-16
 event:
   id: 2
   short_description: "F#: Machine Learning from Disaster!\r\n\r\nThe goal of this\

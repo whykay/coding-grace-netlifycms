@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2013-09-23
 event:
   id: 17
   short_description: Back with popular demand, and we have listened to past participants

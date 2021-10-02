@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2019-02-15
 event:
   id: 102
   short_description: Coding Grace is delighted to once again be part of Dublin Raspberry

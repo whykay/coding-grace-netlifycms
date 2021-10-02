@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2013-09-02
 event:
   id: 16
   short_description: "We are delighted to announce our 3rd workshop, HTML5/CSS3.\r\

@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2013-05-10
 event:
   id: 14
   short_description: "Coding Grace will be having our first full day female-friendly\

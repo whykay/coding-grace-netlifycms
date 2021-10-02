@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-08-26
 event:
   id: 25
   short_description: "Level: Beginners | Price: EUR20.00\r\n\r\nLearn to build an\

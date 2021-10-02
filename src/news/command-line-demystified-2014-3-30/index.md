@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-03-30
 event:
   id: 5
   short_description: "Learn basic command line in your terminal. Tutorials, and even\

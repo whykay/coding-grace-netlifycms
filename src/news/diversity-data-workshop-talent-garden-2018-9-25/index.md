@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2018-09-25
 event:
   id: 96
   short_description: We are delighted to announce a co-joined diversity in data workshop

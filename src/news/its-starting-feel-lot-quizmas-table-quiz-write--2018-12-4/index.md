@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2018-12-04
 event:
   id: 97
   short_description: It's our annual collaboration Techie Table Quiz and this year

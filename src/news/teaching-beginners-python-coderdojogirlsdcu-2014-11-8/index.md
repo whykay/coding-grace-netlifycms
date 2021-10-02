@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-11-08
 event:
   id: 37
   short_description: "Coding Grace is delighted to be running a beginners Python workshop\

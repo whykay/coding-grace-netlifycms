@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2016-01-02
 id: 96
 is_published: true
 published: 2016-01-02T12:00:00Z

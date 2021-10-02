@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-02-23
 event:
   id: 22
   short_description: "The third part in our journey with\_Python. \r\n\r\nBefore we\

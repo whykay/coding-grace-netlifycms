@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-01-31
 event:
   id: 39
   short_description: "Remember choose your own adventure games, well, you can create\

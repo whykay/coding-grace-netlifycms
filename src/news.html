@@ -3,9 +3,9 @@
 layout: default
 
 pagination:
-  data: collections.news
-  size: 6
-
+    data: collections.news
+    size: 12
+    reverse: true
 ---
 
 <div class="bg-white pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
@@ -55,6 +55,7 @@ pagination:
 </div>
 
 <div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+  <div>sssss</div>
   <div class="flex-1 flex justify-between sm:hidden">
     {% if pagination.href.previous %}
         <a href="{{ pagination.href.previous }}" class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">

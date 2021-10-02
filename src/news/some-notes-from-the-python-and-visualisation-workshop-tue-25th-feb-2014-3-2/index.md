@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-03-02
 event:
   id: 8
   short_description: "Know a bit of Python, and want to try your skills on a project?\

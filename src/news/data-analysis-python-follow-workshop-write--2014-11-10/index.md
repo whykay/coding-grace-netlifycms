@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-11-10
 event:
   id: 34
   short_description: "Level: Intermediate | FREE\r\n\r\nThis is a follow-up to our\

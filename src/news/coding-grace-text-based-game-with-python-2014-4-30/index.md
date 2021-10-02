@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-04-30
 event:
   id: 3
   short_description: "Want to learn Python? This workshop are for people with no programming\

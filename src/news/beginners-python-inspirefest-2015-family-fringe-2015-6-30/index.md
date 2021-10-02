@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-06-30
 event:
   id: 48
   short_description: We are delighted to run a beginners Python workshop at INSPIREFEST's

@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2019-01-31
 event:
   id: 101
   short_description: DUCSS and NeuroSoc, Chiara and Catalina reached out to uso run

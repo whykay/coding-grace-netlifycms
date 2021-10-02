@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-09-04
 event:
   id: 27
   short_description: "Level: Intermediate | Price: EUR20.00 (incl. lunch)\r\n\r\n\

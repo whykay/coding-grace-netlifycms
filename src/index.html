@@ -48,7 +48,8 @@ path: home
             {% endfor %}
         </div>
     </div>
-    {% set postslist = collections.news | sort(reverse=true, attribute='published') %}
+
+    {% set postslist = collections.news | sort( attribute='published') | reverse %}
     <div class="relative  max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl ">
         <div class="">
             <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl ">

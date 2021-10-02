@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-03-16
 event:
   id: 41
   short_description: "A beginner-friendly introduction to F# with our special guest\

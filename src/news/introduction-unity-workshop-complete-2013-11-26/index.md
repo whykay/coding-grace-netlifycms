@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2013-11-26
 event:
   id: 18
   short_description: "** UPDATE: Time change to earlier in the day, if you cannot\

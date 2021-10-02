@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-11-26
 event:
   id: 35
   short_description: Vicky Twomey-Lee will be mentoring beginners Python workshop

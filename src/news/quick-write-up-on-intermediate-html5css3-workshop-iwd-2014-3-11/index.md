@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-03-11
 event:
   id: 7
   short_description: You dipped your toe into HTML5 and CSS3 last time, and/or you

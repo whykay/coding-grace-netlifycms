@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-02-16
 event:
   id: 11
   short_description: Coding Grace is happy to announce our second Introduction to

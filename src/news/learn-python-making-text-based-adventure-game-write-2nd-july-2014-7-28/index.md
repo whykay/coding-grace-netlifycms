@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2014-07-28
 event:
   id: 26
   short_description: "**Level:** Beginners | **Price:** EUR10.00\r\n\r\nA fun way\

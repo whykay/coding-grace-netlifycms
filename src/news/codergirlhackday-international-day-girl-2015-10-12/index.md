@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2015-10-12
 event:
   id: 56
   short_description: CoderDojoGirls, Girls Hack Ireland and Coding Grace have combined

@@ -17,6 +17,7 @@ author:
     id: 1
     last_name: Twomey-Lee
     username: whykay
+date: 2019-07-27
 event:
   id: 103
   short_description: An introduction to Vue.js with our awesome mentor, Irene Yeriskin.
