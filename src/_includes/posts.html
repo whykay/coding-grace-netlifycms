@@ -40,6 +40,7 @@ prism: true
     {% if author.blurb %}
     <div class="bg-gray-50 my-10 p-5 shadow-md">
         <h1 class="text-5xl font-extrabold">About Author</h1>
+        <h2 class="text-xl font-bold">{{ author.first_name }} {{ author.last_name }}</h2>
         <div class="my-5">{{ author.blurb }}</div>
         <div>👉 <a href="{{author.url}}" class="hover:text-gray-500">{{author.url}}</a></div>
     </div>
