@@ -18,14 +18,18 @@ events: {{collections.events}}
 {% set eventlist = collections.events %}
 <div class="bg-white pt-16 pb-10 px-4 sm:px-6 lg:pt-24 lg:pb-10 lg:px-8">
   <div class="relative max-w-lg mx-auto divide-y-2 divide-gray-200 lg:max-w-7xl">
-      <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-        Current Events and Workshops
-      </h2>
+    <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+      Current Events and Workshops
+    </h2>
     <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">   
       {% set current_events = eventlist | laterItemList | sort(attribute='data.start_datetime') | reverse %}
 
       {% for event in current_events %}
-        {% include "./_includes/partials/event-summary.html" %}
+        {% if event.data.published %}
+          {% include "./_includes/partials/event-summary.html" %}
+        {% else %}
+          ↻ Check back soon for events.
+        {% endif %}
       {% endfor %}
     </div>
   </div>
