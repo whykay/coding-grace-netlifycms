@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2015-02-13
 end_datetime: 2014-11-10T21:00:00Z
 event_ended: true
 event_url: https://getinvited.to/eventgeekie/coding-grace-introduction-to-angularjs/

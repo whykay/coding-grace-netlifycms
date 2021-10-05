@@ -1,6 +1,7 @@
 ---
 
 cost: 25.00
+date: 2017-08-15
 end_datetime: 2016-06-27T20:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/learn-python-through-making-a-text-based-adventure-game

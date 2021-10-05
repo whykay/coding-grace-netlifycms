@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2014-09-07
 end_datetime: 2014-08-16T17:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/gdg-coding-grace-beginners-raspberry-pi-workshop-tickets-12489346973

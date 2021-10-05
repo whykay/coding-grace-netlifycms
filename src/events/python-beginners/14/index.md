@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2015-06-22
 end_datetime: 2013-05-11T18:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-workshop-python-for-beginners-tickets-6325436551

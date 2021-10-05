@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2014-09-07
 end_datetime: 2014-03-15T16:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-introduction-to-processing-tickets-10369053117

@@ -1,6 +1,7 @@
 ---
 
 cost: 40.00
+date: 2015-08-28
 end_datetime: 2015-09-05T16:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/introduction-to-animation

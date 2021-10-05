@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2014-09-07
 end_datetime: 2014-02-22T16:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-introduction-to-python-workshop-part-3-saturday-morning-tickets-10475563693

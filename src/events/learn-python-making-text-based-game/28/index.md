@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2014-09-07
 end_datetime: 2014-09-20T15:30:00Z
 event_ended: true
 event_url: http://2014.culturetech.co/event/2014-09-20/coding-grace-introduction-to-python

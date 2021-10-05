@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-03-02
 end_datetime: 2016-03-08T20:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/iwd-diversity-in-games

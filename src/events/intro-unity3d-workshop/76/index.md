@@ -1,6 +1,7 @@
 ---
 
 cost: 40.00
+date: 2016-11-17
 end_datetime: 2016-11-19T17:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/intro-to-unity3d-workshop

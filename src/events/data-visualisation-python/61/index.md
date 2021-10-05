@@ -1,6 +1,7 @@
 ---
 
 cost: 60.00
+date: 2016-02-02
 end_datetime: 2016-02-06T16:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/data-visualisation-with-python

@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-01-24
 end_datetime: 2017-02-17T20:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/kats-conf-2

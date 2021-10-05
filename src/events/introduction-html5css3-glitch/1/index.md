@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2014-09-07
 end_datetime: 2014-06-28T16:00:00Z
 event_ended: true
 event_url: http://www.ruared.ie/glitch_2014.html

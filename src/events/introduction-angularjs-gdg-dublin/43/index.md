@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2015-03-18
 end_datetime: 2015-03-31T21:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/women-techmakers-powered-by-gdg-dublin-tickets-15748414933

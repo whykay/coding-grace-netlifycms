@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2015-04-14
 end_datetime: 2015-04-18T16:00:00Z
 event_ended: true
 event_url: https://getinvited.to/eventgeekie/dive-into-javascript-workshop/

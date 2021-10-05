@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2019-08-06
 end_datetime: 2019-03-02T14:30:00Z
 event_ended: true
 event_url: https://ti.to/vessy/global-diversity-cfp-day-dublin

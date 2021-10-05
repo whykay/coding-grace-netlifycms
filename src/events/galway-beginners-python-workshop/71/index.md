@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-07-27
 end_datetime: 2016-08-23T20:00:00Z
 event_ended: true
 event_url: http://witsireland.com/events/?event_id=27

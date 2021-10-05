@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-03-13
 end_datetime: 2017-03-21T20:00:00Z
 event_ended: true
 event_url: https://ti.to/wearehere_ire/wearehere-careers

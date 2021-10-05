@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2018-03-13
 end_datetime: 2018-04-07T15:30:00Z
 event_ended: true
 event_url: https://ti.to/refig-nip/galway-diversity-in-games-workshop

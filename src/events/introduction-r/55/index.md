@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2016-02-22
 end_datetime: 2015-09-26T16:00:00Z
 event_ended: true
 event_url: http://www.meetup.com/DataScientistsIreland/events/224871404/

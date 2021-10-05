@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2018-11-12
 end_datetime: 2018-11-26T20:30:00Z
 event_ended: true
 event_url: https://www.eventbrite.com/e/coding-what-is-it-who-is-it-for-how-to-do-it-tickets-52485344077

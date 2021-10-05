@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2014-09-07
 end_datetime: 2014-05-24T17:00:00Z
 event_ended: true
 event_url: http://www.eventbrite.ie/e/coding-grace-game-art-workshop-tickets-11136883719

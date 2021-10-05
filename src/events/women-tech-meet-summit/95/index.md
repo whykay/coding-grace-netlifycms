@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2018-05-01
 end_datetime: 2018-05-15T21:30:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/women-in-tech-meet-up-summit-tickets-45231650083

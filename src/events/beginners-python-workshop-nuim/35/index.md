@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2014-10-02
 end_datetime: 2014-11-25T20:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/python-coding-workshop-led-by-coding-grace-tickets-12868049683

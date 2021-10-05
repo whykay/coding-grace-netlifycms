@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2020-01-17
 end_datetime: 2020-01-27T20:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/ducss-and-neurosoc-present-python-for-beginners-tickets-89596915787

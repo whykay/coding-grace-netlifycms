@@ -1,6 +1,7 @@
 ---
 
 cost: 5.00
+date: 2014-09-07
 end_datetime: 2013-11-09T15:00:00Z
 event_ended: true
 event_url: http://www.eventbrite.ie/e/coding-grace-introduction-to-python-part-2-tickets-8950462073

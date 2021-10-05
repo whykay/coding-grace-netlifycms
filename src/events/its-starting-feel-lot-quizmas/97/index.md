@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2018-11-21
 end_datetime: 2018-12-03T21:00:00Z
 event_ended: true
 event_url: https://ti.to/irishgeeks/it-s-starting-to-feel-like-quizmas

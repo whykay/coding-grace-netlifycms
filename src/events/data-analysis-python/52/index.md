@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2015-08-07
 end_datetime: 2015-08-08T16:00:00Z
 event_ended: true
 event_url: https://admin.getinvited.to/embed/data-analysis-with-python/

@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-08-22
 end_datetime: 2017-10-25T19:30:00Z
 event_ended: true
 event_url: http://www.fingalcoco.ie/community-and-leisure/libraries/

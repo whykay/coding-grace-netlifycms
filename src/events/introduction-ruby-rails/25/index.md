@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2014-09-07
 end_datetime: 2014-08-23T16:00:00Z
 event_ended: true
 event_url: https://ti.to/eventgeekie/rubyonrails

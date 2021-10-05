@@ -1,6 +1,7 @@
 ---
 
 cost: 30.00
+date: 2019-01-08
 end_datetime: 2019-01-21T20:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/learn-python-through-making-a-text-based-adventure-game-jan19

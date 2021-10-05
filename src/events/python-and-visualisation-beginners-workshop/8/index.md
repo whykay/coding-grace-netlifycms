@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2014-09-07
 end_datetime: 2014-02-25T21:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-python-and-visualisation-beginners-workshop-tickets-10642077741

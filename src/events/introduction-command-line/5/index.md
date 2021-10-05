@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2014-09-07
 end_datetime: 2014-03-28T21:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-basic-command-line-tickets-10728125111

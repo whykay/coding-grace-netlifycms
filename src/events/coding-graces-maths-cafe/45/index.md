@@ -1,6 +1,7 @@
 ---
 
 cost: 25.00
+date: 2015-05-19
 end_datetime: 2015-05-30T16:00:00Z
 event_ended: true
 event_url: https://getinvited.to/eventgeekie/coding-graces-maths-caf/
