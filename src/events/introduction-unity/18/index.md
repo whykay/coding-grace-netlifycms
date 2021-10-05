@@ -1,6 +1,7 @@
 ---
 
 cost: 5.00
+date: 2014-09-07
 end_datetime: 2013-11-25T15:30:00Z
 event_ended: true
 event_url: http://www.eventbrite.ie/e/coding-grace-introduction-to-unity-workshop-tickets-8422607245

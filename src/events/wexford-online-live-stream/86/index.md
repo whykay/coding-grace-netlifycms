@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-03-26
 end_datetime: 2017-03-29T18:20:00Z
 event_ended: true
 event_url: https://www.facebook.com/events/1679637265664112/

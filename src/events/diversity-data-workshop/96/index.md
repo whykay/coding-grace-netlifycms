@@ -1,6 +1,7 @@
 ---
 
 cost: 5.00
+date: 2018-09-12
 end_datetime: 2018-09-22T17:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/diversity-in-data-workshop-2018

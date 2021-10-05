@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2014-11-03
 end_datetime: 2014-11-08T12:00:00Z
 event_ended: true
 event_url: http://coderdojodcu.com/sessions/girls/

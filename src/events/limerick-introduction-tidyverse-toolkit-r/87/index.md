@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-05-04
 end_datetime: 2017-05-13T16:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/data-analysis-with-r-the-tidyverse-toolkit

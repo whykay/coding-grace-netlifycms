@@ -1,6 +1,7 @@
 ---
 
 cost: 5.00
+date: 2017-01-06
 end_datetime: 2017-01-16T21:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/wearehere-women-in-tech-2017-celebrations-tickets-29622424469

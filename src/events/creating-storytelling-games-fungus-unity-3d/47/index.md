@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2015-07-25
 end_datetime: 2015-07-25T17:30:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/lets-code-summer-workshops-gdg-dublin-women-techmakers-coding-grace-tickets-17488726251

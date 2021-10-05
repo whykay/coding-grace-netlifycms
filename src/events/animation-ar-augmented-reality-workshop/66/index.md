@@ -1,6 +1,7 @@
 ---
 
 cost: 40.00
+date: 2016-04-01
 end_datetime: 2016-04-02T16:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/animation-ar-augmented-reality-workshop

@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-03-07
 end_datetime: 2013-10-30T20:00:00Z
 event_ended: true
 event_url: http://www.eventbrite.ie/e/coding-grace-introduction-to-htmlcss-workshop-in-partner-with-aib-tickets-8709764139

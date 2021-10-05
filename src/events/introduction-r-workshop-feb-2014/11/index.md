@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2014-09-07
 end_datetime: 2014-02-15T16:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-presents-introduction-to-r-workshop-tickets-10332580025

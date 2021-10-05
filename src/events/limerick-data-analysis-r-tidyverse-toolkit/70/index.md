@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2016-07-26
 end_datetime: 2016-08-20T17:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/limerick-data-analysis-with-r-the-tidyverse-toolkit

@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2017-03-24
 end_datetime: 2017-03-25T17:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/beginners-r-workshop-2017

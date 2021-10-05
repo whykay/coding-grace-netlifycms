@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-08-22
 end_datetime: 2016-08-27T15:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/refig-network-in-play-series-interactive-fiction-with-twine-workshop

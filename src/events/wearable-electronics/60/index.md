@@ -1,6 +1,7 @@
 ---
 
 cost: 85.00
+date: 2016-01-17
 end_datetime: 2016-01-23T16:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/wearable-electronics-workshop

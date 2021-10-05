@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-02-22
 end_datetime: 2016-03-05T16:00:00Z
 event_ended: true
 event_url: http://ti.to/codinggrace

@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-09-01
 end_datetime: 2016-09-03T15:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/refig-network-in-play-series-2d-games-in-unity3d-with-fungus

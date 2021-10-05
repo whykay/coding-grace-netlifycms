@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-09-07
 end_datetime: 2016-10-15T16:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/codergirlhackday-10am-4pm-tickets-27380915054

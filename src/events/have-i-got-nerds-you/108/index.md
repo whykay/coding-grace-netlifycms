@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2019-11-27
 end_datetime: 2019-11-25T21:00:00Z
 event_ended: true
 event_url: https://ti.to/irishgeeks/have-i-got-nerds-for-you

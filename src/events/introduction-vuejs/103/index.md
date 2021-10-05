@@ -1,6 +1,7 @@
 ---
 
 cost: 40.00
+date: 2019-07-26
 end_datetime: 2019-07-27T16:30:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/introduction-to-vue-js

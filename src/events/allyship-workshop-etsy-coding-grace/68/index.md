@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-06-27
 end_datetime: 2016-08-11T21:00:00Z
 event_ended: true
 event_url: https://ti.to/etsy-ireland/being-an-effective-male-ally

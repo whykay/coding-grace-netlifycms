@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-04-15
 end_datetime: 2017-04-24T20:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.com/e/html-coding-session-tickets-33238661732

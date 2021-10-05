@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2014-12-01
 end_datetime: 2014-12-01T21:00:00Z
 event_ended: true
 event_url: https://getinvited.to/eventgeekie/learn-python-by-making-a-text-based-adventure-game/

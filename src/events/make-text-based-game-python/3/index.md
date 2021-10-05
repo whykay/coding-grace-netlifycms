@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2014-09-07
 end_datetime: 2014-04-28T21:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/make-a-text-based-game-in-python-tickets-11137981001

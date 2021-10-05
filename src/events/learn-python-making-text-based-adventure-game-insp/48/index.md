@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2015-06-02
 end_datetime: 2015-06-20T13:00:00Z
 event_ended: true
 event_url: http://inspirefest2015.com/fringe/

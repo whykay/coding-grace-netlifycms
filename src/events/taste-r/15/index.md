@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2014-09-07
 end_datetime: 2013-06-08T14:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/a-taste-of-r-tickets-6722239399

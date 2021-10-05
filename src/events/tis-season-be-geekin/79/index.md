@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-12-07
 end_datetime: 2016-12-14T21:00:00Z
 event_ended: true
 event_url: https://ti.to/irishgeeks/tis-the-season-to-be-geekin

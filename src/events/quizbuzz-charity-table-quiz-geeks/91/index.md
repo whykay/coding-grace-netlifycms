@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-11-30
 end_datetime: 2017-12-04T21:00:00Z
 event_ended: true
 event_url: https://ti.to/irishgeeks/quizzbuzz

@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-11-05
 end_datetime: 2016-12-03T12:00:00Z
 event_ended: true
 event_url: http://www.codinggrace.com/events/learn-html-fun-and-easy-way/78/

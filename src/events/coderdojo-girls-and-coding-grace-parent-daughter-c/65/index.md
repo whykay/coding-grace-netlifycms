@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-03-12
 end_datetime: 2016-03-13T13:45:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coderdojo-girls-and-coding-grace-parent-daughter-coding-session-tickets-22579087659

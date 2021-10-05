@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2018-10-26
 end_datetime: 2018-11-03T17:30:00Z
 event_ended: true
 event_url: https://ti.to/dublin-raspberry-pi-jam/2nd-pi-jam

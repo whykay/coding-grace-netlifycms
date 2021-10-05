@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2015-03-05
 end_datetime: 2015-03-07T16:00:00Z
 event_ended: true
 event_url: https://getinvited.to/eventgeekie/introduction-to-data-manipulation-and-visualisation-in-r/

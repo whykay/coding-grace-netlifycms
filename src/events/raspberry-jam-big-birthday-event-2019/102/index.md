@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2019-02-15
 end_datetime: 2019-03-02T17:30:00Z
 event_ended: true
 event_url: https://ti.to/dublin-raspberry-pi-jam/raspberry-jam-big-birthday-event-2019

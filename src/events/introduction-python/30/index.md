@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2014-09-07
 end_datetime: 2014-03-25T21:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/gdg-and-women-techmakers-google-dublin-tickets-10907042257

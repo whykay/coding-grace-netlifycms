@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2019-10-29
 end_datetime: 2019-11-09T16:30:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/vue-vixens-sligo-workshop-tickets-76750884963

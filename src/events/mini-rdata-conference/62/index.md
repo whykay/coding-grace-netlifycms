@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-03-11
 end_datetime: 2016-03-12T16:00:00Z
 event_ended: true
 event_url: https://ti.to/coding-grace/iwd2016-r-data-mini-conference

@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2017-06-09
 end_datetime: 2017-07-08T15:00:00Z
 event_ended: true
 event_url: http://inspirefest.com/fringe/

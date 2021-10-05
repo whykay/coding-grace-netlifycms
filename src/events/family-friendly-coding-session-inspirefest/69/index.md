@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2016-06-23
 end_datetime: 2016-07-02T13:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/inspirefest-family-fringe-merrion-square-park-2-july-tickets-25436739974

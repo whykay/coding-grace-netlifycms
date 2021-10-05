@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2014-09-07
 end_datetime: 2014-03-08T16:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-intermediate-html5css3-workshop-tickets-10590882615

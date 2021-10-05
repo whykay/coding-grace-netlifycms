@@ -1,6 +1,7 @@
 ---
 
 cost: 20.00
+date: 2015-08-22
 end_datetime: 2015-08-22T16:00:00Z
 event_ended: true
 event_url: http://codinggrace.com/

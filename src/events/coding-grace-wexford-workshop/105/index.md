@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2019-09-26
 end_datetime: 2019-10-12T13:00:00Z
 event_ended: true
 event_url: https://www.facebook.com/events/546763926097127/

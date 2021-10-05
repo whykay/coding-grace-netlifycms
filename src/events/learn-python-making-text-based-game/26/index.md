@@ -1,6 +1,7 @@
 ---
 
 cost: 10.00
+date: 2014-09-07
 end_datetime: 2014-07-22T21:00:00Z
 event_ended: true
 event_url: https://ti.to/eventgeekie/beginners-python-by-making-a-text-based-adventure-game

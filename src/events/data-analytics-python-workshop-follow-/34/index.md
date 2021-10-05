@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2014-10-02
 end_datetime: 2014-11-01T16:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/ticketwidget?eid=13123622107

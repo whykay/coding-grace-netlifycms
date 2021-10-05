@@ -1,6 +1,7 @@
 ---
 
 cost: 0.0
+date: 2015-10-08
 end_datetime: 2015-10-10T16:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/tickets-external?eid=18386613857

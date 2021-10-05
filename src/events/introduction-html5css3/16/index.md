@@ -1,6 +1,7 @@
 ---
 
 cost: 5.00
+date: 2014-11-12
 end_datetime: 2013-08-31T14:00:00Z
 event_ended: true
 event_url: https://www.eventbrite.ie/e/coding-grace-introduction-to-html5css3-tickets-7664439545
