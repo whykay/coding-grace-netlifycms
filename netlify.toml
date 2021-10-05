@@ -1,3 +1,57 @@
 [build]
   publish = "_site"
   command = "npm run build"
+
+# /chapters
+[[redirects]]
+  from = "/chapters"
+  to = "/general"
+# /chapters/dublin
+[[redirects]]
+  from = "/chapters/dublin"
+  to = "/general"
+# /chapters/ireland/dublin/posts/2014-03-30-command-line-demystified
+[[redirects]]
+  from = "/chapters/ireland/dublin/posts/2014-03-30-command-line-demystified"
+  to = "/news/command-line-demystified-2014-3-30/"
+# /chapters/Limerick
+[[redirects]]
+  from = "/chapters/Limerick"
+  to = "/general"
+# /chapters/Wexford
+[[redirects]]
+  from = "/chapters/Wexford"
+  to = "/general"
+# /colophon
+[[redirects]]
+  from = "/colophon"
+  to = "/general"
+# /events/introduction-git/4  TODO: copy event over
+# /news/all_articles
+[[redirects]]
+  from = "/news/all_articles"
+  to = "/news"
+# /news/all_articles/dublin
+[[redirects]]
+  from = "/news/all_articles/dublin"
+  to = "/news"
+# /news/all_articles/Limerick
+[[redirects]]
+  from = "/news/all_articles/Limerick"
+  to = "/news"
+# /news/all_articles/other
+[[redirects]]
+  from = "/news/all_articles/other"
+  to = "/news"
+# /news/all_articles/Wexford
+[[redirects]]
+  from = "/news/all_articles/Wexford"
+  to = "/news"
+# /resources
+[[redirects]]
+  from = "/resources"
+  to = "/general"
+# /supporters
+[[redirects]]
+  from = "/supporters"
+  to = "/general"
