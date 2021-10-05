@@ -55,7 +55,7 @@ Big thanks to our mentors: Michael Connors (instructor), Ursula Clarke, Andrei B
 
 Thanks again to our host, Adverts.ie.
 
-<img src="http://i.imgur.com/2T8fPIX.png">
+<img src="https://i.imgur.com/2T8fPIX.png">
 
 [Adverts.ie](http://Adverts.ie) is Ireland's Trusted Marketplace. A safe site where you can Buy what you need & Sell what you don't. Sign up today & place your ad now!
 
