@@ -10,7 +10,7 @@ author:
   id: 1
   last_name: Twomey-Lee
   slug: vicky-twomey-lee
-  url: http://about.me/whykay
+  url: https://about.me/whykay
   user:
     email: whykay@gmail.com
     first_name: Vicky
@@ -33,12 +33,12 @@ slug: dive-javascript
 title: Dive into Javascript write-up
 ---
 
-### [EDIT] Forgot to mention that there's a Dublin JS meetup on May 5th @ Intercom. Details at: [http://www.meetup.com/DublinJS/events/220989428/](http://www.meetup.com/DublinJS/events/220989428/)
+### [EDIT] Forgot to mention that there's a Dublin JS meetup on May 5th @ Intercom. Details at: [https://www.meetup.com/DublinJS/events/220989428/](https://www.meetup.com/DublinJS/events/220989428/)
 
-<blockquote class="twitter-tweet" lang="en"><p>Great turnout at our <a href="https://twitter.com/hashtag/Javascript?src=hash">#Javascript</a> workshop this morning. <a href="http://t.co/cuswve6QXl">pic.twitter.com/cuswve6QXl</a></p>&mdash; Coding Grace (@CodingGrace) <a href="https://twitter.com/CodingGrace/status/589382886891134976">April 18, 2015</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>Great turnout at our <a href="https://twitter.com/hashtag/Javascript?src=hash">#Javascript</a> workshop this morning. <a href="https://t.co/cuswve6QXl">pic.twitter.com/cuswve6QXl</a></p>&mdash; Coding Grace (@CodingGrace) <a href="https://twitter.com/CodingGrace/status/589382886891134976">April 18, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Big thanks to everyone who came along, our mentors ([David](https://twitter.com/davecocoa7), [Brian](http://btmatthews.com/), [Blain](https://twitter.com/BlainMaguire), [Pat](https://twitter.com/patocallaghan) and [Mick](https://twitter.com/micktwomey)), and to [Zendesk](http://www.zendesk.com/) for hosting our workshop. I want to also shout out a special thanks to [Dean McDonnell](https://twitter.com/mcdonnelldean) who donated two Javascript workshop tickets which I forwarded on to [An Cosán](http://www.ancosan.ie/), a fantastic organisation who are helping so many people.
+Big thanks to everyone who came along, our mentors ([David](https://twitter.com/davecocoa7), [Brian](https://btmatthews.com/), [Blain](https://twitter.com/BlainMaguire), [Pat](https://twitter.com/patocallaghan) and [Mick](https://twitter.com/micktwomey)), and to [Zendesk](https://www.zendesk.com/) for hosting our workshop. I want to also shout out a special thanks to [Dean McDonnell](https://twitter.com/mcdonnelldean) who donated two Javascript workshop tickets which I forwarded on to [An Cosán](https://www.ancosan.ie/), a fantastic organisation who are helping so many people.
 
 There was some setting up for this workshop, to re-cap:
 
@@ -46,7 +46,7 @@ _(Note: If on a Mac, there might be a need to install XCode, this is a huge down
 
 * Installing node, instructions can be found [here](https://github.com/nodeschool/discussions/wiki/Installation-suggestions).
 * `npm install -g javascripting`
-* Recommended to get [Sublime Text Editor](http://www.sublimetext.com/).
+* Recommended to get [Sublime Text Editor](https://www.sublimetext.com/).
 
 To start running the workshop, go to your terminal, and type: `javascripting`.
 
@@ -57,15 +57,15 @@ If you have questions or feedback, please leave in the comment below, or email <
 # Announcements
 ## UPCOMING CODING GRACE WORKSHOP
 
-![Maths Café](http://i.minus.com/ibknRPcRdz0IWL.png)
+![Maths Café](https://i.minus.com/ibknRPcRdz0IWL.png)
 
 * When: Saturday, May 30th
 * Where: TBC
-* Details: [http://www.codinggrace.com/events/coding-graces-maths-cafe/45/](http://www.codinggrace.com/events/coding-graces-maths-cafe/45/)
+* Details: [https://www.codinggrace.com/events/coding-graces-maths-cafe/45/](https://www.codinggrace.com/events/coding-graces-maths-cafe/45/)
 
-![XPrize Global Learning](http://i.minus.com/i0q1t3x2k6tez.jpg)
+![XPrize Global Learning](https://i.minus.com/i0q1t3x2k6tez.jpg)
 
-Proceeds will go to fund R&D of Ireland's only entry (that we know of!) for the Global Learning [XPRIZE](http://learning.xprize.org/), a competition to enable child-driven learning.
+Proceeds will go to fund R&D of Ireland's only entry (that we know of!) for the Global Learning [XPRIZE](https://learning.xprize.org/), a competition to enable child-driven learning.
 
 ## SPECIAL ANNOUNCEMENTS
 ### Big DataWeek Belfast 
@@ -83,7 +83,7 @@ Proceeds will go to fund R&D of Ireland's only entry (that we know of!) for the 
 
 * When: Tuesday, April 21  (18:00 - 21:00)
 * Price: FREE; bring your own laptop
-* Details: [dublin.pyladies.com](http://dublin.pyladies.com)
+* Details: [dublin.pyladies.com](https://dublin.pyladies.com)
 
 ### weAREhere Unconference @ Guinness Enterprise Centre, D8
 
@@ -94,12 +94,12 @@ Proceeds will go to fund R&D of Ireland's only entry (that we know of!) for the 
 ### Women 2.0 City Meetup Dublin @ MasterCard 
 
 * When: Thursday, May 7 
-* Details: [http://www.eventbrite.com/e/women-20-city-meetup-dublin-tickets-16432857118](http://www.eventbrite.com/e/women-20-city-meetup-dublin-tickets-16432857118)
+* Details: [https://www.eventbrite.com/e/women-20-city-meetup-dublin-tickets-16432857118](https://www.eventbrite.com/e/women-20-city-meetup-dublin-tickets-16432857118)
 
 ### Ireland Girl Geek Dinners @ Science Gallery
 
 * When:  Thursday, May 7 
-* Details: [http://www.meetup.com/Ireland-Girl-Geek-Dinners/](http://www.meetup.com/Ireland-Girl-Geek-Dinners/)
+* Details: [https://www.meetup.com/Ireland-Girl-Geek-Dinners/](https://www.meetup.com/Ireland-Girl-Geek-Dinners/)
 
 ### Silicon Republic’s Inspirefest 2015
 
@@ -107,7 +107,7 @@ Proceeds will go to fund R&D of Ireland's only entry (that we know of!) for the 
     - Thursday, June 18 - Friday, June 19
 * Fringe festival @ Merrion Square
 	- Saturday, June 20
-* Details: [http://inspirefest2015.com](http://inspirefest2015.com)
+* Details: [https://inspirefest2015.com](https://inspirefest2015.com)
 
 # Keep in touch and up-to-date
 
@@ -142,7 +142,7 @@ To subscribe, please go to [https://groups.google.com/d/forum/coding-grace](http
 
 
 ## THE INTERNETZ
-![Moar workshops](http://i.minus.com/i9ZhNdMp5JqG8.png)
+![Moar workshops](https://i.minus.com/i9ZhNdMp5JqG8.png)
 
 * Follow us on twitter: [@CodingGrace](https://twitter.com/codinggrace)
 * Like us on Facebook: [https://www.facebook.com/pages/Coding-Grace/501098363273457](https://www.facebook.com/pages/Coding-Grace/501098363273457)
