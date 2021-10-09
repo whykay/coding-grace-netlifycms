@@ -21,7 +21,23 @@ pagination:
     </div>
     <div class="mt-12 grid gap-16 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
         {% for post in pagination.items | sort(reverse=true, attribute='data.published')%}
+
+
+        <!--ARTICLES-->
         <div>
+          <!--TAGS-->
+          <div>
+            {% for tag in post.data.tags | sort %}
+              {% if tag != "post" %}
+              <a href="/tags/{{ tag }}/" class="inline-block">
+                <span class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium {% if tag == 'announcements' %}bg-green-100 text-green-800{% else %} bg-indigo-100 text-indigo-800{% endif %}">
+                  {{tag}}
+                </span>
+              </a>
+              {% endif %}
+            {% endfor %}
+          </div>
+
             <a href="{{ post.url | url }}" class="block mt-4">
                 <p class="text-xl font-semibold text-gray-900">
                     {{ post.data.title }}
