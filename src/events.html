@@ -42,18 +42,26 @@ events: {{collections.events}}
     </h2>
     <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
       {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse | addYearToEvents %}
-      <div>
-        Following are all the events we have run to date, in total we have run {{ old_events | length }} events.
-      </div>
+      <p>
+        Following are all the events to date: {{ old_events | length }} 
+      </p>
 
+      
       {% for when, events in old_events | groupby("data.year") | dictsort  |reverse %}
-        
+        {# This is for getting cancelled events count, the selectattr doesn't work here for some reason #}
+        {% set cancelled_cnt = 0 %}
+        {% for event in events %}
+          {% if event.data.is_cancelled %}
+              {% set cancelled_cnt = cancelled_cnt + 1 %}
+          {% endif %}
+        {% endfor %}
+
         <div class="bg-gray-50 p-5 shadow-md ">
-          <h3>{{ when }} <span class="text-sm text-gray-500">(#events: {{ events | length}})</span></h3>
+          <h3>{{ when }} <span class="text-sm text-gray-500">(#events: {{ events | length}} / #cancelled: {{ cancelled_cnt }})</span></h3>
           {% for event in events %}
             <div class="w-full my-2 bg-white p-5 shadow-inner">
-              <a href="{{ event.url }}" class="hover:text-yellow-500">{{event.data.title}}</a>
-              
+              <a href="{{ event.url }}" class="hover:text-yellow-500">{{event.data.title}}</a> {% if event.data.is_cancelled %}<span class="text-red-500 text-sm">Cancelled</span>{% endif %}
+
             </div>
           {% endfor %}
         </div>
