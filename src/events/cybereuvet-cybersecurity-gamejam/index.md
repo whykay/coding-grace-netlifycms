@@ -27,6 +27,12 @@ tags:
   - gamejam
   - online
 ---
+[UPDATE] Times have changed from schedule, it's now
+
+* 19:00 - 20:00 Playtesting, voting (and dinner)
+* 20:00 - 20:15 Winner announced, awards and what's next for CYBER.EU.VET
+
+---
 
 Coding Grace along with GameCraft are delighted to partner with Meath Partnership on this [Erasmus+ programme](https://cybervet.eu/) hosting an Irish Cybersecurity Game Jam
 
