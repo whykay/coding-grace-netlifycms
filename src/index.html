@@ -33,7 +33,7 @@ path: home
 
             {% if current_events.length != 0 %}
               {% for event in current_events %}
-                {% if event.data.published %}
+                {% if event.data.is_published %}
                   <div class=" bg-gradient-to-r from-yellow-400  to-yellow-500 p-5 shadow-lg rounded-md " >
                   
                   <div class="font-bold text-lg bg-white p-4 rounded-t-md rounded-t-l rounded-t-r shadow-inner">
@@ -118,7 +118,7 @@ path: home
                 <time datetime="">
                 {% if post.data.date %}
                   {{ post.data.date | readableDate }}
-                {% elif post.data.published %}
+                {% elif post.data.is_published %}
                   {{ post.data.published | readableDate }}
                 {% endif %}
                 </time>

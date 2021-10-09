@@ -39,7 +39,7 @@ partners:
   - org: "GameCraft"
     url: "https://gamecraft.it"
 level: "Beginner-friendly"
-published: false
+is_published: false
 
 ---
 

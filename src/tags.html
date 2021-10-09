@@ -30,7 +30,7 @@ permalink: /tags/{{ tag }}/
   <article class="prose lg:prose-xl my-4 mx-auto">
     {% set taglist = collections[ tag ] %}
     {% for post in taglist | reverse %}
-      {% if post.data.title %}
+      {% if post.data.title and post.data.is_published %}
       <p>
         <a href="{{ post.url | url }}">{{ post.data.title }}</a> <span class="text-gray-500 text-sm">{% if post.data.published %}{{ post.data.published | readableDateTime }}{% else %}{{ post.data.start_datetime | readableDateTime }}{% endif %}</span>
       </p>

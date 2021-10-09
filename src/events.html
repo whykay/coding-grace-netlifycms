@@ -25,7 +25,7 @@ events: {{collections.events}}
       {% set current_events = eventlist | laterItemList | sort(attribute='data.start_datetime') | reverse %}
 
       {% for event in current_events %}
-        {% if event.data.published %}
+        {% if event.data.is_published %}
           {% include "./_includes/partials/event-summary.html" %}
         {% else %}
           ↻ Check back soon for events.
