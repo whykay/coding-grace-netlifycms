@@ -6,7 +6,6 @@ date: 2021-04-11
 published: 2021-04-11
 tags:
   - announcements
-  - news
   - gamecraft
 ---
 A new site (NetlifyCMS with 11ty & TailwindCSS, if you are curious 😉) will be cleaner and still show you info about our events, news and more. Bear with us as we work on adding more details to the re-vamped site. We will archive the previous site along with info on our past events and blogs posts, and you can still find it at [codinggrace.com](https://codinggrace.com).
