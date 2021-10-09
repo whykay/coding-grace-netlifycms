@@ -92,6 +92,24 @@
         </dd>
       </div>
 
+      <div class="sm:col-span-1">
+        <dt class="text-sm font-medium text-gray-500">
+          When
+        </dt>
+        <dd class="mt-1 text-sm text-gray-900">
+          {# {% if "online" in tags %}
+            Online
+          {% elif "in-person" in tags %} 
+            <address>
+              {{ location.venue }}, {{ location.address1 }}, {% if location.address2 %}{{ location.address2 }}{% endif %} {{location.city | capitalize  }}, {{ location.country | capitalize }}
+            </address>
+          {% else %}
+            TBC
+          {% endif %} #}
+          {{ start_datetime | readableDateTime }} - {{ end_datetime | readableDateTime }}
+        </dd>
+      </div>
+
       {% if how %}
       <div class="sm:col-span-2">
         <dt class="text-sm font-medium text-gray-500">
