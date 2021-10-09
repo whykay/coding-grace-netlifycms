@@ -71,37 +71,3 @@ events: {{collections.events}}
   </div>
 
 </div>
-
-<!-- <div class="mb-10 mx-10 p-5">
-  <h1>TESTING</h1>
-    {% set currentYear = "" %}
-    {% set old_events = eventlist | OldItemList | sort(attribute='data.start_datetime') | reverse | addYearToEvents %}
-    <p>foo</p>
-    <p>{{old_events}}</p>
-   
-
-    <div class="p-1 pb-5 px-5">
-    {% for event in old_events %}
-      {% set postYear = event.data.start_datetime.getFullYear() %}
-      {% if currentYear != postYear %}
-        {% set currentYear = postYear %}
-        <h3 class="mt-5">{{ postYear }}</h3>
-      {% endif %}
-      <div><a href="{{ event.url }}">{{ event.data.title }}</a></div>
-    {% endfor %}
-  </div>
-
-  <div class="p-1 pb-5 px-5">
-    <p>foo</p>
-    {% for when, events in old_events | groupby("data.year") %}
-    <p>Year: {{ when }}</p>
-    {% for event in events %}
-    <p>event: {{event.data.title}}</p>
-    {% endfor %}
-    {% endfor %}
-  </div>
-
-</div> -->
-
-
-
