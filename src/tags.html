@@ -1,0 +1,48 @@
+---
+layout: default
+prism: true
+title: Test TAG entry 
+description: Test tag description ddd
+author: Vicky Twomey-Lee
+date: 2021-05-16
+
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
+---
+
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="text-center">
+      <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase">Tag listing for</h2>
+      <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">{{ tag }}</p>
+      <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Following are a list of events and news with the <span class="font-bold">{{ tag }} </span></p>
+      <a href="/tags/" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-400 sm:w-auto">
+        Back to Tags
+      </a>
+    </div>
+</div>
+
+<div class="container max-w-4xl mt-1 mb-16 sm:mb-24 px-6">
+
+  <article class="prose lg:prose-xl my-4 mx-auto">
+    {% set taglist = collections[ tag ] %}
+    {% for post in taglist | reverse %}
+      {% if post.data.title %}
+      <p>
+        <a href="{{ post.url | url }}">{{ post.data.title }}</a> <span class="text-gray-500 text-sm">{% if post.data.published %}{{ post.data.published | readableDateTime }}{% else %}{{ post.data.start_datetime | readableDateTime }}{% endif %}</span>
+      </p>
+      {% endif %}
+    {% endfor %}
+  </article>
+
+</div>
+  
+
+
+
+
+
+

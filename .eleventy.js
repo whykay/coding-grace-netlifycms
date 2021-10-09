@@ -29,6 +29,9 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Via https://github.com/11ty/eleventy/issues/927
+  eleventyConfig.addFilter("keys", obj => Object.keys(obj));
+
   // human readable date
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(

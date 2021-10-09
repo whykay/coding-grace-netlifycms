@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto pt-5 pb-1 px-4 sm:pt-12 sm:pb-6 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-base font-semibold text-yellow-500 tracking-wide uppercase">Coding Grace</h2>
+        <p class="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">Tags</p>
+        <p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">The following are all the tags from news and events.</p>
+      </div>
+    </div>
+  </div>
+
+<section class="px-10">
+    <!-- <h1>Tags from Events and News</h1> -->
+    <div class="max-w-7xl mx-auto pb-1 px-10 sm:pb-5 sm:px-6 lg:px-8 text-center">
+        {%- for tag, posts in collections | dictsort %}
+        <p class="text-sm font-medium text-gray-900"><a href="/tags/{{tag}}">{{ tag | capitalize }}</a> ({{ posts | length }})</p>
+
+        {%- endfor %}
+        <!-- <ul role="list">
+            {%- for tag, posts in collections | dictsort %}
+            <li class="py-4 flex">
+                <div class="ml-3 items-center">
+                    <p class="text-sm font-medium text-gray-900"><a href="/tags/{{tag}}">{{ tag }}</a> ({{ posts | length }})</p>
+
+                </div>
+            </li>
+            {%- endfor %}
+        </ul> -->
+    </div>
+</section>
