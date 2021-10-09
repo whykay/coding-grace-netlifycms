@@ -24,13 +24,23 @@ events: {{collections.events}}
     <div class="mt-5 grid gap-16 pt-5 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">   
       {% set current_events = eventlist | laterItemList | sort(attribute='data.start_datetime') | reverse %}
 
-      {% for event in current_events %}
-        {% if event.data.is_published %}
-          {% include "./_includes/partials/event-summary.html" %}
-        {% else %}
-          ↻ Check back soon for events.
-        {% endif %}
-      {% endfor %}
+      {% if current_events.length != 0 %}
+        {% set event_cnt = 0 %}
+        {% for event in current_events %}
+          {% if event.data.is_published %}
+            {% include "./_includes/partials/event-summary.html" %}
+          {% else %}
+            {# {{event}} {{event.data.title}} #}
+            {# ↻ We've something in the works. Check back soon for events. #}
+            {% set event_cnt = event_cnt + 1 %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        ↻ Check back soon for events.
+      {% endif %}
+      {% if event_cnt > 0 %}
+        ↻ We've something in the works. Check back soon for more info.
+      {% endif %}
     </div>
   </div>
 </div>

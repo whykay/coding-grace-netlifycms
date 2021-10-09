@@ -1,0 +1,23 @@
+{
+    "user_id": -1,
+    "last_name": "Partnership",
+    "contact_number": "+353 46 9280790",
+    "url": "https://www.meathpartnership.ie/",
+    "first_name": "Meath",
+    "blurb": "Meath Partnership is a dynamic partnership company established in 2006 to deliver a range of rural, social and economic programmes at local level across County Meath.",
+    "email": "info@meathpartnership.ie",
+    "slug": "meath-partnership",
+    "user_username": "AnonymousUser",
+    "user": {
+      "id": -1,
+      "username": "AnonymousUser",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2014-06-25T22:04:33.749814+00:00",
+      "is_superuser": false,
+      "last_login": "2014-06-25T22:04:33.749735+00:00",
+      "first_name": "",
+      "email": "",
+      "is_active": true
+    }
+  }

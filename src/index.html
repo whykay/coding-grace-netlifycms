@@ -32,8 +32,10 @@ path: home
             {% set current_events = collections.events | laterItemList | sort(attribute='data.start_datetime') | reverse %}
 
             {% if current_events.length != 0 %}
+              {% set event_cnt = 0 %}
               {% for event in current_events %}
                 {% if event.data.is_published %}
+                  
                   <div class=" bg-gradient-to-r from-yellow-400  to-yellow-500 p-5 shadow-lg rounded-md " >
                   
                   <div class="font-bold text-lg bg-white p-4 rounded-t-md rounded-t-l rounded-t-r shadow-inner">
@@ -49,12 +51,16 @@ path: home
                   </button>
                   </div> 
                 {% else %}
-                   ↻ Check back soon for events.
+                  {% set event_cnt = event_cnt + 1 %}
                 {% endif %}
               {% endfor %}
-            
             {% else %}
               ↻ Check back soon for events.
+            {% endif %}
+
+            {# If there are events but not published #}
+            {% if event_cnt > 0 %}
+                ↻ We've something in the works. Check back soon for more info.
             {% endif %}
         </div>
     </div>
