@@ -43,7 +43,7 @@ The project will help to improve the skills of VET educators in relation to mana
 Games developed during the Gamejam will be included in the Cybersecurity Awareness Training material developed
 
 ### Event page
-https://www.gamecraft.it/events/cyber-eu-vet-cybersecurity-game-jam/
+👉 Game Jam Page (submitted games): [https://itch.io/jam/cybereuvet-cybersecurity-gamejam](https://itch.io/jam/cybereuvet-cybersecurity-gamejam)
 
 ### Things to note
 
