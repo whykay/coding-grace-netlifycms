@@ -45,31 +45,31 @@ module.exports = function (eleventyConfig) {
       "EEE DD (T)"
     );
   });
-  
-    // human readable year
-    eleventyConfig.addFilter("getYear", (dateObj) => {
-      return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-        "yyyy"
-      );
-    });
+
+  // human readable year
+  eleventyConfig.addFilter("getYear", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "yyyy"
+    );
+  });
 
   // Filtered events including a given type
   eleventyConfig.addFilter("inclItemTypeList", (items, item_type) => {
-    return items.filter(item => item.type == item_type 
+    return items.filter(item => item.type == item_type
     );
   });
 
   // Was returning list of items excluding the current day
   // Fix 1 day off, minus the day of local datetime before it gets compared
   eleventyConfig.addFilter("laterItemList", (items) => {
-    return items.filter(item => DateTime.local().minus({days: 1}) <= DateTime.fromJSDate(item.data.start_datetime)
+    return items.filter(item => DateTime.local().minus({ days: 1 }) <= DateTime.fromJSDate(item.data.start_datetime)
     );
   });
 
   // Was returning list of items excluding the current day
   // Fix 1 day off, minus the day of local datetime before it gets compared
   eleventyConfig.addFilter("OldItemList", (items) => {
-    return items.filter(item => DateTime.local().minus({days: 1}) > DateTime.fromJSDate(item.data.start_datetime)
+    return items.filter(item => DateTime.local().minus({ days: 1 }) > DateTime.fromJSDate(item.data.start_datetime)
     );
   });
 
@@ -86,8 +86,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "./src/admin/config.yml": "./admin/config.yml",
     "./node_modules/alpinejs/dist/alpine.js": "./static/js/alpine.js",
-    "./node_modules/prismjs/themes/prism-tomorrow.css":
-      "./static/css/prism-tomorrow.css",
+    "./node_modules/prismjs/themes/prism-tomorrow.css": "./static/css/prism-tomorrow.css",
+    "./src/static/js/count.js": "./static/js/count.js"
   });
 
   // Copy Image Folder to /_site
