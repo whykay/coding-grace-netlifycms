@@ -28,13 +28,24 @@ permalink: /tags/{{ tag }}/
 <div class="container max-w-4xl mt-1 mb-16 sm:mb-24 px-6">
 
   <article class="prose lg:prose-xl my-4 mx-auto">
-    {% set taglist = collections[ tag ] %}
     {% for post in taglist | reverse %}
-      {% if post.data.title and post.data.is_published %}
-      <p>
-        <a href="{{ post.url | url }}">{{ post.data.title }}</a> <span class="text-gray-500 text-sm">{% if post.data.published %}{{ post.data.published | readableDateTime }}{% else %}{{ post.data.start_datetime | readableDateTime }}{% endif %}</span>
-      </p>
+      {% if post.data.title %}
+        {% if post.data.published or post.data.is_published %}
+          <p>
+            <a href="{{ post.url | url }}">{{ post.data.title }}</a> <span class="text-gray-500 text-sm">{% if post.data.published %}{{ post.data.published | readableDateTime }}{% else %}{{ post.data.start_datetime | readableDateTime }}{% endif %}</span>
+          </p>
+        {% endif %}
+
       {% endif %}
+
+      {% if post.data.published %}
+      post.data.published
+      {% endif %}
+
+      {% if post.data.is_published %}
+      post.data.is_published
+      {% endif %}
+
     {% endfor %}
   </article>
 
