@@ -33,7 +33,7 @@ mentors:
 - rose-farrell
 - vicky-twomey-lee
 
-faq:
+faq: "#### Q: Can I register my interest for similar workshops in the future if I can't make it to this one?\n Yes, head over to our [ticket page and register your interest instead](https://ti.to/coding-grace/diversity-friendly-workshop-for-non-tech-founders)."
 
 ---
 
