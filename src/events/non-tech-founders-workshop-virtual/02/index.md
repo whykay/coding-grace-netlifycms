@@ -34,7 +34,7 @@ mentors:
 - rose-farrell
 - vicky-twomey-lee
 
-
+faq:
 
 ---
 
@@ -65,6 +65,4 @@ Online
 
 ### 📍 Please Note
 
-This workshop is aimed to guide you to be more informed in your decisions around tech and tips on navigating this fast-paced tech industry. We are all volunteers on this programme, and we pay mentors when possible, and if there's any monies leftover, it will go back into Coding Grace Foundation to help with its administritive costs, e.g. annual accountancy and bank fees.
-
-https://codinggrace.com
+This workshop is aimed to guide you to be more informed in your decisions around tech and tips on navigating this fast-paced tech industry. We are all volunteers on this programme, and we pay mentors when possible, and if there's any monies leftover, it will go back into [Coding Grace Foundation](https://codinggrace.com) to help with its administritive costs, e.g. annual accountancy and bank fees.
