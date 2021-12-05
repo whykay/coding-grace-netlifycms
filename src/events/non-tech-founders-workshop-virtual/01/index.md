@@ -39,7 +39,7 @@ faq:
 
 ## What is this workshop about?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_H0OaW30b3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8nJ5DJz8mDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 High level understanding of technologies when navigating areas of tech
 
