@@ -37,16 +37,16 @@
                 <dt class="text-lg leading-6 font-medium text-gray-900">
                     Here's some info about our awesome mentor(s).
                 </dt>
-                <dd class="mt-2 text-base text-gray-500">
+                <dd class="mt-2 text-base text-gray-500 ">
                     <dl>
                     {% for mentor in mentors %}
                         {% for key, dets in mentor_details %}
                             {% if key == mentor %}
-                                <dt>
+                                <dt class="mt-4 -mb-5 ml-4 bg-gray-100">
                                 🌈 {{ dets.first_name}} {{ dets.last_name}}
                                 </dt>
-                                <dd class="text-gray-900 mb-2 text-sm mt-1">
-                                    <div>{{dets.blurb | safe}}</div>
+                                <dd class="text-gray-900 text-sm bg-gray-50 px-2">
+                                    <div>{{dets.blurb | markdown | safe}}</div>
                                     <div><a href="{{ dets.url }}">{{ dets.url }}</a></div>
                                 </dd>
                             {% endif %}

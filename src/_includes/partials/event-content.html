@@ -34,6 +34,24 @@
           <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">{{ title }}</span>
         </h1>
 
+        {# 
+          Splits the url, for now, we are checking for tito link
+          If tito link, embed registration widget
+          If there's a link and it's not tito, then show only url
+          Otherwise tell folks registraiton is coming soon
+        #}
+        {% set event_url_list = event_url.split("/") %}
+
+        {% if event_url_list[2] == "ti.to" %}
+          <tito-widget event="{{ event_url_list[3] }} /{{ event_url_list[4] }}"></tito-widget>
+        {% elif event_url %}
+          
+          <h3 class="bg-yellow-200 p-4 rounded-md shadow">🎟 Register at: <a href="{{ event_url }}">{{ event_url }}</a></h3>
+          
+        {% else %}
+          <h3>🎟 Ticket registration coming soon</h3>
+        {% endif %}
+
         <p class="mt-8 text-xl text-gray-500 leading-8">{{short_description}}</p>
       </div>
       
