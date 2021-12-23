@@ -37,6 +37,8 @@ faq: "#### Q: Can I register my interest for similar workshops in the future if 
 
 ---
 
+📌 Having problems registering? You can head directly to [https://ti.to/coding-grace/diversity-friendly-workshop-for-non-tech-founders](https://ti.to/coding-grace/diversity-friendly-workshop-for-non-tech-founders) to register your ticket or interest.
+
 ## What is this workshop about?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8nJ5DJz8mDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
