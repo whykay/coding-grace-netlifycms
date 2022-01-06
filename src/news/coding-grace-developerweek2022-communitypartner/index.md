@@ -19,6 +19,4 @@ Join 8,000+ developers, engineers, architects, managers, and executives to disco
 
 Join us and discover what’s new in: API & Microservices, AI & Machine Learning, New Coding Languages, Containers & Kubernetes, IoT & Hardware, Developer-Led Innovation, Blockchain/DeFi, Quantum Computing, Product Management & Development, DevOps & DevSecOps, Technical Leadership & Management, Cloud-Native Development, Edge Computing, and more...
 
-Register now to get your free OPEN Pass or to SAVE $100 on your PRO Pass.
-
-### 👉 [REGISTER HERE](https://www.eventbrite.com/e/developerweek-2022-registration-164532975559?discount=MU11808&utm_campaign=MU11808&utm_source=meetup&utm_medium=email)
+### 👉 [Register now to get your free OPEN Pass or to SAVE $100 on your PRO Pass.](https://www.eventbrite.com/e/developerweek-2022-registration-164532975559?discount=MU11808&utm_campaign=MU11808&utm_source=meetup&utm_medium=email)
