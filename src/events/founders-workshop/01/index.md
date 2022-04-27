@@ -4,11 +4,11 @@ cost: 50.00
 date: 2022-02-25
 start_datetime: 2022-03-29T08:00:00Z
 end_datetime: 2022-03-30T10:00:00Z
-event_ended: false
+event_ended: true
 
 event_url: "https://ti.to/coding-grace/tech-basics-for-founders"
 
-is_cancelled: false
+is_cancelled: true
 is_published: true
 levels:
 - Beginners
