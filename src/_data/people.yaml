@@ -27,7 +27,7 @@ advisors:
     url: 
     twitter: 
     linkedin: "https://www.linkedin.com/in/marycarty"
-    desc: "Director, Board of Directors, Science Gallery International / Was Executive Director Blackstone LaunchPad, Co-founder Outbox Incubator"
+    desc: "CEO Wilson & Keys, Co-Founder AwakenHub. International Board Director. Consultant and Advisor."
   - name: Joanne Dolan
     url: "https://teen-turn.com/advisors/"
     twitter:
@@ -37,12 +37,12 @@ advisors:
     url: 
     twitter: "https://www.linkedin.com/in/alexandra-etienne-112290102"
     linkedin:
-    desc: "Global Community Engagement Manager at Dropbox"
+    desc: "Program Manager at Dropbox"
   - name: Edel Flynn
     url: 
     twitter:
     linkedin: "https://www.linkedin.com/in/edelkennedyflynn"
-    desc: "Director and Co-Founder at Element78Space"
+    desc: "CEO at HyWorx"
   - name: Paul Hayes
     url: 
     twitter:
@@ -57,12 +57,12 @@ advisors:
     url: 
     twitter:
     linkedin: "https://www.linkedin.com/in/eamonleonard/"
-    desc: "Boundless"
+    desc: "Broadstone"
   - name: Mary Dunphy
     url: 
     twitter: "https://twitter.com/marydunph?lang=en"
     linkedin: "https://www.linkedin.com/in/mary-dunphy-9a159b18"
-    desc: "Senior Managing Director, Teneo / Was Global CEO CoderDojo Foundation"
+    desc: "Chairperson at Kollect"
   - name: Cian O'Cuilleanain
     url: 
     twitter: 
@@ -82,17 +82,17 @@ advisors:
     url: 
     twitter: 
     linkedin: "https://www.linkedin.com/in/paulinesargent/"
-    desc: "Associate Network Coordinator, Irish Management Institute"
+    desc: "Project Coordinator/Manager"
   - name: Niambh Scullion
     url: 
     twitter: 
-    linkedin: "https://www.linkedin.com/in/niambh-scullion-cspo-7253763/"
-    desc: "Scrum Product Owner Social Program Management Platform, IBM / Co-Founder at Teen-Turn / Was Mentor at CoderDojoGirls@DCU"
+    linkedin: "https://www.linkedin.com/in/niambh-scullion-she-her-7253763/"
+    desc: "Sr. Product Manager - Workday Search"
   - name: Andreea Wade
     url: 
     twitter: 
     linkedin: "https://www.linkedin.com/in/andreeawade/"
-    desc: "Portfolio Director, AI/ML at iCIMS / Co Founder & CEO at Opening.io"
+    desc: "Head of Talent Cloud AI at iCIMS"
   - name: Patrick Walsh
     url: 
     twitter: 
@@ -107,7 +107,12 @@ advisors:
     url: 
     twitter: 
     linkedin: "https://www.linkedin.com/in/padraigobrien/"
-    desc: "Software Engineer at Hulacorn.com"
+    desc: "Senior Engineering Manager at Toast"
+  - name: Fiona Mc Kenna 
+    url: 
+    twitter: 
+    linkedin: "https://www.linkedin.com/in/fiona-mc-kenna-174172a2/"
+    desc: "Co-Founder, CFO & Head of HR at fourTheorem"
 
 organisers:
   - name: Blanchardstown Library

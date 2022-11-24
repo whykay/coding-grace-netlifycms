@@ -4,7 +4,7 @@ cost: 10.00
 date: 2022-11-12
 start_datetime: 2022-11-12T09:30:00Z
 end_datetime: 2022-11-12T16:30:00Z
-event_ended: false
+event_ended: true
 
 event_url: "https://djangoworkshopsligo.eventbrite.ie"
 

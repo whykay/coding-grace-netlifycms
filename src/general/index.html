@@ -102,10 +102,30 @@ data: people, organiser_details
                 <script src="https://opencollective.com/coding-grace/contribute/button.js" color="blue"></script>
               </p>
               
-              <h4 class="mt-4 text-lg font-extrabold">2. Github Sponsors</h4>
+              <h4 class="mt-4 text-lg font-extrabold">2. Patreon</h4>
               <div class="bg-yellow-50 p-4 mt-2">
                 <p>
-                  This one is relatively new and we only found out about it after Open Collective. If you want to sponsor us via github, click on the button below.
+                  This one is relatively new. If you want to support us via Patreon, click on the button below.
+                </p>
+                <p class="mt-4">
+                  <a href="https://www.patreon.com/bePatron?u=77507905" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+                </p>
+              </div>
+
+              <h4 class="mt-4 text-lg font-extrabold">3. ko-fi</h4>
+              <div class="bg-yellow-50 p-4 mt-2">
+                <p>
+                  This one is relatively new. If you want to support us via ko-fi, click on the button below.
+                </p>
+                <p class="mt-4">
+                  <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Us on Ko-fi', '#e09d28', 'S6S5E6K3V');kofiwidget2.draw();</script> 
+                </p>
+              </div>
+
+              <h4 class="mt-4 text-lg font-extrabold">4. Github Sponsors</h4>
+              <div class="bg-yellow-50 p-4 mt-2">
+                <p>
+                  If you want to sponsor us via github, click on the button below.
                 </p>
                 <p class="mt-4">
                   <a class="github-button" href="https://github.com/sponsors/codinggrace" data-icon="octicon-heart" aria-label="Sponsor @codinggrace on GitHub">Sponsor</a>
@@ -189,7 +209,7 @@ data: people, organiser_details
 
         <!--ADVISORS-->
         <div class="mt-5 pt-5 pb-5">
-            <h3 class="font-semibold tracking-tight sm:text-4xl">Advisors</h3>
+            <h3 class="font-semibold tracking-tight sm:text-4xl">Advisors (Past and Present)</h3>
             <p class="py-5">
                 ❤️ A huge shoutout to all the following people who took the time to give us advice and to talk to.
             </p>
@@ -253,7 +273,7 @@ data: people, organiser_details
 <!-- Organisers -->
 {% set people_details = organiser_details %}
 <div class="mb-10" id="organisers">
-    <h3 class="font-semibold tracking-tight sm:text-4xl text-center">Organisers</h3>
+    <h3 class="font-semibold tracking-tight sm:text-4xl text-center">Organisers (Past & Present)</h3>
     <p class="py-5 text-center">🌈 These are {{ people_details | length }} amazing people/orgs who helped organise and are the main facilitators of Coding Grace events and workshops.</p>
     {% include "partials/general-people.html" %}
 </div>
@@ -261,7 +281,7 @@ data: people, organiser_details
 <!-- Mentors -->
 {% set people_details = mentor_details %}
 <div class="mb-5" id="mentors">
-    <h3 class="font-semibold tracking-tight sm:text-4xl text-center">Mentors</h3>
+    <h3 class="font-semibold tracking-tight sm:text-4xl text-center">Mentors (Past & Present)</h3>
     <div class="py-5 text-center">
       <div class="">
         🌈 Our workshops wouldn't be able to run without all {{ people_details | length }} of these amazing volunteers. 
