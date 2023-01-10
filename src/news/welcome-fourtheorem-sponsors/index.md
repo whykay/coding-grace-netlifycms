@@ -1,12 +1,20 @@
 ---
 title: Welcome to our new sponsor - fourTheorem
 description: "We are delighted to announce fourTheorem as our corporate sponsor this year!"
-author: Vicky Twomey-Lee
+author: 
+  blurb: Co-Founder of Coding Grace.
+  email: vicky@codinggrace.com
+  first_name: Vicky
+  id: 1
+  last_name: Twomey-Lee
+  slug: vicky-twomey-lee
+  url: https://beacons.ai/whykay
 date: 2023-01-06
 published: 2023-01-06
 tags:
   - announcements
-  - sponsorship
+  - sponsorship  
+
 ---
 ## 🎉 Happy New Year! And some wonderful news to share with everyone! 
 
