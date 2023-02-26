@@ -1,0 +1,24 @@
+{
+    "id": 4,
+    "user_id": -1,
+    "last_name": " ",
+    "contact_number": "",
+    "url": "https://techfoundher.com",
+    "first_name": "TechFoundHer",
+    "blurb": "Mairin Murray and Vicky Twomey-Lee - You can read more about TechFoundHer team via their <a href=\"https://techfoundher.com/about/\">About Page</a>",
+    "email": "info@techfoundher.com",
+    "slug": "techfoundher",
+    "user_username": "AnonymousUser",
+    "user": {
+      "id": -1,
+      "username": "AnonymousUser",
+      "last_name": "",
+      "is_staff": false,
+      "date_joined": "2022-09-28T22:04:33.749814+00:00",
+      "is_superuser": false,
+      "last_login": "2022-09-28T22:04:33.749735+00:00",
+      "first_name": "",
+      "email": "",
+      "is_active": true
+    }
+  }
