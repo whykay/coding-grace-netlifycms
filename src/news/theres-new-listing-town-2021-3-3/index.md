@@ -101,9 +101,9 @@ Found this simpler explanation of filters after a bit of searching:
 * [11ty Rocks: Create Your First Basic 11ty Website](https://11ty.rocks/posts/create-your-first-basic-11ty-website/)
 
 ### Sorting in Nunjucks
-``
-\{% for group in groups | sort(attribute=‘name’)%\}
-`` 
+{% raw %}
+{% for group in groups | sort(attribute=‘name’)%}
+{% endraw %}
 
 * [Stackoverflow:How can I sort by date with Nunjucks?
 ](https://stackoverflow.com/questions/30448107/how-can-i-sort-by-date-with-nunjucks)
@@ -117,14 +117,14 @@ Works fine.
 
 This created a list of only active groups
 
-``
-\{% set up_groups = [] %\}
-\{% for group in diversityGroups.groups %\}
-  \{% if group.status == “active” or group.status == “new” %\}
-    \{% set up_groups = (up_groups.push(group), up_groups) %\}
-  \{% endif %\}
-\{% endfor %\}
-``
+{% raw %}
+{% set up_groups = [] %}
+{% for group in diversityGroups.groups %}
+  {% if group.status == “active” or group.status == “new” %}
+    {% set up_groups = (up_groups.push(group), up_groups) %}
+  {% endif %}
+{% endfor %}
+{% endraw %}
 
 ## On to my tech events listings
 ### Moar customising date and time in 11ty
