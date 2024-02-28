@@ -34,13 +34,17 @@
         <dd class="mt-1 text-sm text-gray-900">
             {% set comma = joiner() %}
             {% if mentors %}
-              {% for mentor in mentors %}
-                {% for key, dets in mentor_details %}
-                  {% if key == mentor %}
-                    {{ comma() }} <a href="{{ dets.url }}">{{ dets.first_name }} {{ dets.last_name }}</a>
-                  {% endif %}
+              {% if mentors == "NA" %}
+                There are no mentors.
+              {% else %}
+                {% for mentor in mentors %}
+                  {% for key, dets in mentor_details %}
+                    {% if key == mentor %}
+                      {{ comma() }} <a href="{{ dets.url }}">{{ dets.first_name }} {{ dets.last_name }}</a>
+                    {% endif %}
+                  {% endfor %}
                 {% endfor %}
-              {% endfor %}
+              {% endif %}
             {% else %} 
               TBC
             {% endif %}
