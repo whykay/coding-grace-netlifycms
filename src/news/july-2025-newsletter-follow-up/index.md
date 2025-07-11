@@ -48,7 +48,12 @@ A reminder that [EuroPython 2025](https://ep2025.europython.eu) is happening in 
 ## Events
 Some events that popped up since the newsletter went out. Are we missing any others? If I see others, I'll update this post.
 
-#### NI Cyber x Danske Bank UK Women in Cyber Summer Social
+#### (In-Person) Women in AI Ireland: Summer Soiree
+*  🗓️ Wed Jul 23, 2025 (18:00-20:00)
+*  📍 eBay HQ (Dublin)
+*  🎟️ [https://www.eventbrite.co.uk/e/wai-ireland-summer-soiree-tickets-1463905935059](https://www.eventbrite.co.uk/e/wai-ireland-summer-soiree-tickets-1463905935059)
+
+#### (In-Person) NI Cyber x Danske Bank UK Women in Cyber Summer Social
 * 🗓️ Thursday, August 7, 17:00 - 20:00
 * 📍 The Dark Horse (Belfast)
 * 🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)
