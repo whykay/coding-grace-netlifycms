@@ -30,7 +30,7 @@ tags:
 
 📰 If you haven't checked out the latest bi-monthly newsletter: [https://newsletter.codinggrace.com/coding-grace-july-august-newsletter](https://newsletter.codinggrace.com/coding-grace-july-august-newsletter/)
 
-A few things popped up since the newsletter was published.
+A few things popped up since the newsletter was published. We will update this blog post as we see things pop up.
 
 ## Conferences Financial Aid
 ### PyCon Ireland 2025
@@ -59,6 +59,13 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)
 
 
+## Call for Speakers
+#### PyCon Ireland 2025
+* 🗓️ Conference dates: Nov 15 - 16, 2025
+* 📍 UCD O'Reilly Hall
+* ⏳ Applications closes: August 3, 2025 
+* ℹ️ Apply: [https://python.ie/pycon-2025/call-for-speakers](https://python.ie/pycon-2025/call-for-speakers/)
+
 ## And finally... 
 If you find what we've being doing is useful, please help support us either getting involved or through donations (mainly for administraion expenses).
 <p class="bg-yellow-50 p-4 mt-2">
@@ -66,3 +73,9 @@ If you find what we've being doing is useful, please help support us either gett
 
     <script src="https://opencollective.com/coding-grace/contribute/button.js" color="blue"></script>
 </p>
+
+---
+
+## Updates
+* 2025-07-13: Added PyCon Ireland 2025 call for speakers
+* 2025-07-11: Added WAI Ireland event
