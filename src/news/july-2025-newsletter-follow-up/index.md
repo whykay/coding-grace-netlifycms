@@ -59,6 +59,11 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)
 
 
+#### (In-Person) Python Ireland August 2025 Meetup 🇮🇪 tech New
+* 🗓️ Wed Aug 13, 18:30 - 20:30
+* 📍Personio
+* 🎟️ [https://www.meetup.com/pythonireland/events/309376890/](https://www.meetup.com/pythonireland/events/309376890/)
+
 ## Call for Speakers
 #### PyCon Ireland 2025
 * 🗓️ Conference dates: Nov 15 - 16, 2025
@@ -76,6 +81,8 @@ If you find what we've being doing is useful, please help support us either gett
 
 ---
 
-## Updates
-* 2025-07-13: Added PyCon Ireland 2025 call for speakers
+## Changelog
+* 2025-07-13: 
+    * Added PyCon Ireland 2025 call for speakers
+    * Added Python Ireland August meetup
 * 2025-07-11: Added WAI Ireland event
