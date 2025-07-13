@@ -33,17 +33,25 @@ tags:
 A few things popped up since the newsletter was published. We will update this blog post as we see things pop up.
 
 ## Conferences Financial Aid
-### PyCon Ireland 2025
-[PyCon Ireland 2025](https://pycon.ie) which takes place on Saturday 15th and Sunday 16th November at the UCD O'Reilly Hall (Dublin) have announced that their FinAid is now open for applications.
-
-⏳ Closing date for FinAid Applications: September 30th, midnight anywhere on earth
-📝 Apply via: [https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform)
-
 ### EuroPython 2025 Financial Aid Remote Tickets 
 A reminder that [EuroPython 2025](https://ep2025.europython.eu) is happening in Prague, their [remote tickets](https://tickets.europython.eu) are avaailable if you cannot make it, and if you require assistance, their FinAid grant for remote tickets are open:
 
 * ⏳ Closing date for FinAid Applications: Tuesday, July 15th 2025
 * Apply via [https://ep2025.europython.eu/finaid](https://ep2025.europython.eu/finaid)
+
+### SREcon25 Europe/Middle East/Africa Grant Opportunities 
+Student and Professional grants now open, please check website for additional info: 
+
+* ⏳ Closing date for FinAid Applications: Monday, August 11th 2025
+* Apply via [https://www.usenix.org/conference/srecon25emea/grants](https://www.usenix.org/conference/srecon25emea/grants)
+
+### PyCon Ireland 2025
+[PyCon Ireland 2025](https://pycon.ie) which takes place on Saturday 15th and Sunday 16th November at the UCD O'Reilly Hall (Dublin) have announced that their FinAid is now open for applications.
+
+* ⏳ Closing date for FinAid Applications: September 30th, midnight anywhere on earth
+* 📝 Apply via: [https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform)
+
+
 
 ## Events
 Some events that popped up since the newsletter went out. Are we missing any others? If I see others, I'll update this post.
@@ -85,4 +93,5 @@ If you find what we've being doing is useful, please help support us either gett
 * 2025-07-13: 
     * Added PyCon Ireland 2025 call for speakers
     * Added Python Ireland August meetup
+    * Added SREcon grant opportunities
 * 2025-07-11: Added WAI Ireland event
