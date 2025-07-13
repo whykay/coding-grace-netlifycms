@@ -32,6 +32,8 @@ tags:
 
 A few things popped up since the newsletter was published. We will update this blog post as we see things pop up.
 
+⬇️⬇️⬇️ You can find out what changed in this post via [the changelog below](#changelog) ⬇️⬇️⬇️
+
 ## Conferences Financial Aid
 ### EuroPython 2025 Financial Aid Remote Tickets 
 A reminder that [EuroPython 2025](https://ep2025.europython.eu) is happening in Prague, their [remote tickets](https://tickets.europython.eu) are avaailable if you cannot make it, and if you require assistance, their FinAid grant for remote tickets are open:
@@ -66,11 +68,15 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 📍 The Dark Horse (Belfast)
 * 🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)
 
-
 #### (In-Person) Python Ireland August 2025 Meetup 🇮🇪 tech New
 * 🗓️ Wed Aug 13, 18:30 - 20:30
-* 📍Personio
+* 📍 Personio
 * 🎟️ [https://www.meetup.com/pythonireland/events/309376890/](https://www.meetup.com/pythonireland/events/309376890/)
+
+#### (In-Person) Dublin Linux group: Windows 10 End of Life install fest
+* 🗓️ Wed Aug 13, 11:00 - 16:30
+* 📍 TOG Hackerspace
+* 🎟️ [https://endofwin10.ie](https://endofwin10.ie/)
 
 ## Call for Speakers
 #### PyCon Ireland 2025
@@ -89,7 +95,9 @@ If you find what we've being doing is useful, please help support us either gett
 
 ---
 
+<a id="changelog"></a>
 ## Changelog
+* 2025-07-14: Windows 10 End of Life install fest
 * 2025-07-13: 
     * Added PyCon Ireland 2025 call for speakers
     * Added Python Ireland August meetup
