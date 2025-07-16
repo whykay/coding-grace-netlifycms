@@ -82,8 +82,16 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 #### PyCon Ireland 2025
 * 🗓️ Conference dates: Nov 15 - 16, 2025
 * 📍 UCD O'Reilly Hall
+* ℹ️ Conference site: [https://pycon.ie](https://pycon.ie)
 * ⏳ Applications closes: August 3, 2025 
-* ℹ️ Apply: [https://python.ie/pycon-2025/call-for-speakers](https://python.ie/pycon-2025/call-for-speakers/)
+* 🎤 Apply: [https://python.ie/pycon-2025/call-for-speakers](https://python.ie/pycon-2025/call-for-speakers/)
+
+#### PyLadiesCon 2025
+* 🗓️ Conference dates: Dec 5 - 7, 2025
+* 📍 Online
+* ℹ️ Conference site: [https://2025.conference.pyladies.com/](https://2025.conference.pyladies.com/)
+* ⏳ Applications closes: August 8, 2025 (23:59 UTC)
+* 🎤 Apply: [https://pretalx.com/pyladiescon-2025/cfp](https://pretalx.com/pyladiescon-2025/cfp)
 
 ## And finally... 
 If you find what we've being doing is useful, please help support us either getting involved or through donations (mainly for administraion expenses).
@@ -97,6 +105,7 @@ If you find what we've being doing is useful, please help support us either gett
 
 <a id="changelog"></a>
 ## Changelog
+* 2025-07-16: PyLadiesCon CFP
 * 2025-07-14: Windows 10 End of Life install fest
 * 2025-07-13: 
     * Added PyCon Ireland 2025 call for speakers
