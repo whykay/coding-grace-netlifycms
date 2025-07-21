@@ -107,6 +107,13 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * ⏳ Applications closes: Jul 28, 2025
 * ℹ️ [https://apply.makers.tech/deloitte-belfast](https://apply.makers.tech/deloitte-belfast)
 
+#### 🆕 WITS Ireland hiring - Secretary
+<blockquote>WITS Ireland are looking for an organised, reliable, detail-oriented Secretary to join the WITS Executive Committee. This voluntary role plays a vital part in ensuring the smooth administration of the organisation, supporting governance, and facilitating communication across the committee.</blockquote>
+
+* ⏳ Applications closes: Jul 30, 2025
+* [More info via their LinkedIn post](https://www.linkedin.com/posts/witsireland_wits-stemireland-womeninstem-activity-7346499297389019137-7rGp)
+
+
 ## And finally... 
 If you find what we've being doing is useful, please help support us either getting involved or through donations (mainly for administraion expenses).
 <p class="bg-yellow-50 p-4 mt-2">
@@ -122,6 +129,7 @@ If you find what we've being doing is useful, please help support us either gett
 * 2025-07-22:
     * Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)
     * NIDC - Call for Volunteerse
+    * WITS Ireland - Hiring Secretary
     * Added line about diversityintech.fyi events listings
 * 2025-07-16: PyLadiesCon CFP
 * 2025-07-14: Windows 10 End of Life install fest
