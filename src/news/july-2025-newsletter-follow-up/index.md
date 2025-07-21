@@ -128,7 +128,7 @@ If you find what we've being doing is useful, please help support us either gett
 ## Changelog
 * 2025-07-22:
     * Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)
-    * NIDC - Call for Volunteerse
+    * NIDC - Call for Volunteers
     * WITS Ireland - Hiring Secretary
     * Added line about diversityintech.fyi events listings
 * 2025-07-16: PyLadiesCon CFP
