@@ -32,6 +32,8 @@ tags:
 
 A few things popped up since the newsletter was published. We will update this blog post as we see things pop up.
 
+I'll also be updating the events listings on [https://diversityintech.fyi/events/](https://diversityintech.fyi/events/) as well, let us know if we are missing diversity in tech events.
+
 ⬇️⬇️⬇️ You can find out what changed in this post via [the changelog below](#changelog) ⬇️⬇️⬇️
 
 ## Conferences Financial Aid
@@ -120,6 +122,7 @@ If you find what we've being doing is useful, please help support us either gett
 * 2025-07-22:
     * Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)
     * NIDC - Call for Volunteerse
+    * Added line about diversityintech.fyi events listings
 * 2025-07-16: PyLadiesCon CFP
 * 2025-07-14: Windows 10 End of Life install fest
 * 2025-07-13: 
