@@ -53,8 +53,6 @@ Student and Professional grants now open, please check website for additional in
 * ⏳ Closing date for FinAid Applications: September 30th, midnight anywhere on earth
 * 📝 Apply via: [https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform)
 
-
-
 ## Events
 Some events that popped up since the newsletter went out. Are we missing any others? If I see others, I'll update this post.
 
@@ -93,6 +91,14 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * ⏳ Applications closes: August 8, 2025 (23:59 UTC)
 * 🎤 Apply: [https://pretalx.com/pyladiescon-2025/cfp](https://pretalx.com/pyladiescon-2025/cfp)
 
+## Opportunities
+#### 🆕 Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)
+* 🗓️ Bootcamp starts: Sep 2025 / Placement starts: Dec 2025
+* Paid programme, see their website for more information.
+* ⏳ Applications closes: Jul 28, 2025
+* ℹ️ [https://apply.makers.tech/deloitte-belfast](https://apply.makers.tech/deloitte-belfast)
+* 
+
 ## And finally... 
 If you find what we've being doing is useful, please help support us either getting involved or through donations (mainly for administraion expenses).
 <p class="bg-yellow-50 p-4 mt-2">
@@ -105,6 +111,7 @@ If you find what we've being doing is useful, please help support us either gett
 
 <a id="changelog"></a>
 ## Changelog
+* 2025-07-22: Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)
 * 2025-07-16: PyLadiesCon CFP
 * 2025-07-14: Windows 10 End of Life install fest
 * 2025-07-13: 
