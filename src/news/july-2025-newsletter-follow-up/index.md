@@ -55,9 +55,16 @@ Student and Professional grants now open, please check website for additional in
 * ⏳ Closing date for FinAid Applications: September 30th, midnight anywhere on earth
 * 📝 Apply via: [https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform)
 
-## Events
+## Conferences and Events
 Some events that popped up since the newsletter went out. Are we missing any others? If I see others, I'll update this post.
 
+### Conferences
+#### 🆕 Nexus Games Summit 2025
+* 🗓️ Wed Oct 1 - Thu Oct 2, 2025
+* 📍 Conference: The Foundry Google | Social events: Various
+* 🎟️ [https://nexusdublin.ie/](https://nexusdublin.ie/)
+
+### Events
 #### (In-Person) Women in AI Ireland: Summer Soiree
 *  🗓️ Wed Jul 23, 2025 (18:00-20:00)
 *  📍 eBay HQ (Dublin)
@@ -131,6 +138,7 @@ If you find what we've being doing is useful, please help support us either gett
     * NIDC - Call for Volunteers
     * WITS Ireland - Hiring Secretary
     * Added line about diversityintech.fyi events listings
+    * Nexus Games Summit
 * 2025-07-16: PyLadiesCon CFP
 * 2025-07-14: Windows 10 End of Life install fest
 * 2025-07-13: 
