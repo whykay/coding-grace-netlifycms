@@ -37,12 +37,6 @@ I'll also be updating the events listings on [https://diversityintech.fyi/events
 ⬇️⬇️⬇️ You can find out what changed in this post via [the changelog below](#changelog) ⬇️⬇️⬇️
 
 ## Conferences Financial Aid
-### EuroPython 2025 Financial Aid Remote Tickets 
-A reminder that [EuroPython 2025](https://ep2025.europython.eu) is happening in Prague, their [remote tickets](https://tickets.europython.eu) are avaailable if you cannot make it, and if you require assistance, their FinAid grant for remote tickets are open:
-
-* ⏳ Closing date for FinAid Applications: Tuesday, July 15th 2025
-* Apply via [https://ep2025.europython.eu/finaid](https://ep2025.europython.eu/finaid)
-
 ### SREcon25 Europe/Middle East/Africa Grant Opportunities 
 Student and Professional grants now open, please check website for additional info: 
 
@@ -55,27 +49,33 @@ Student and Professional grants now open, please check website for additional in
 * ⏳ Closing date for FinAid Applications: September 30th, midnight anywhere on earth
 * 📝 Apply via: [https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform](https://docs.google.com/forms/d/e/1FAIpQLSc3jxknIRcqI81Wr-RzabYDrE8ln9TK2Pq21eWM2fFZ4M4kGA/viewform)
 
+### ~~EuroPython 2025 Financial Aid Remote Tickets~~ 
+~~A reminder that [EuroPython 2025](https://ep2025.europython.eu) is happening in Prague, their [remote tickets](https://tickets.europython.eu) are avaailable if you cannot make it, and if you require assistance, their FinAid grant for remote tickets are open:~~
+
+* ~~⏳ Closing date for FinAid Applications: Tuesday, July 15th 2025~~
+* ~~Apply via [https://ep2025.europython.eu/finaid](https://ep2025.europython.eu/finaid)~~
+
 ## Conferences and Events
 Some events that popped up since the newsletter went out. Are we missing any others? If I see others, I'll update this post.
 
 ### Conferences
-#### 🆕 Nexus Games Summit 2025
+#### Nexus Games Summit 2025
 * 🗓️ Wed Oct 1 - Thu Oct 2, 2025
 * 📍 Conference: The Foundry Google | Social events: Various
 * 🎟️ [https://nexusdublin.ie/](https://nexusdublin.ie/)
 
-### Events
-#### (In-Person) Women in AI Ireland: Summer Soiree
-*  🗓️ Wed Jul 23, 2025 (18:00-20:00)
-*  📍 eBay HQ (Dublin)
-*  🎟️ [https://www.eventbrite.co.uk/e/wai-ireland-summer-soiree-tickets-1463905935059](https://www.eventbrite.co.uk/e/wai-ireland-summer-soiree-tickets-1463905935059)
+### Events  
+#### (In-Person) TechFoundHer The Collective: Summer Meetup 🆕
+* 🗓️ Thu Jul 31, 17:00 - 19:00
+* 📍 Café en Seine
+* No event page, just show up.
 
 #### (In-Person) NI Cyber x Danske Bank UK Women in Cyber Summer Social
 * 🗓️ Thursday, August 7, 17:00 - 20:00
 * 📍 The Dark Horse (Belfast)
 * 🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)
 
-#### (In-Person) Python Ireland August 2025 Meetup 🇮🇪 tech New
+#### (In-Person) Python Ireland August 2025 Meetup
 * 🗓️ Wed Aug 13, 18:30 - 20:30
 * 📍 Personio
 * 🎟️ [https://www.meetup.com/pythonireland/events/309376890/](https://www.meetup.com/pythonireland/events/309376890/)
@@ -84,6 +84,11 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 🗓️ Wed Aug 13, 11:00 - 16:30
 * 📍 TOG Hackerspace
 * 🎟️ [https://endofwin10.ie](https://endofwin10.ie/)
+
+#### ~~(In-Person) Women in AI Ireland: Summer Soiree~~
+*  ~~🗓️ Wed Jul 23, 2025 (18:00-20:00)~~
+*  ~~📍 eBay HQ (Dublin)~~
+*  ~~🎟️ [https://www.eventbrite.co.uk/e/wai-ireland-summer-soiree-tickets-1463905935059](https://www.eventbrite.co.uk/e/wai-ireland-summer-soiree-tickets-1463905935059)~~
 
 ## Call for Speakers
 #### PyCon Ireland 2025
@@ -101,24 +106,24 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 🎤 Apply: [https://pretalx.com/pyladiescon-2025/cfp](https://pretalx.com/pyladiescon-2025/cfp)
 
 ## Call to Action
-#### 🆕 NIDC - Call for Volunteers
+#### NIDC - Call for Volunteers
 * 🗓️ Conference dates: Nov 8, 2025
 * 📍 Waterfront ICC, Belfast
 * ℹ️ Conference site: [https://www.nidevconf.com/](https://www.nidevconf.com/)
 * 👉 Volunteer application form: [https://docs.google.com/forms/d/e/1FAIpQLSfBhph-vrjJEQWrzfHNJnHsub6L5jMvvOSegfNhLSx1SuoZvw/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfBhph-vrjJEQWrzfHNJnHsub6L5jMvvOSegfNhLSx1SuoZvw/viewform)
 
 ## Opportunities
-#### 🆕 Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)
-* 🗓️ Bootcamp starts: Sep 2025 / Placement starts: Dec 2025
-* Paid programme, see their website for more information.
-* ⏳ Applications closes: Jul 28, 2025
-* ℹ️ [https://apply.makers.tech/deloitte-belfast](https://apply.makers.tech/deloitte-belfast)
+#### ~~Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)~~
+* ~~🗓️ Bootcamp starts: Sep 2025 / Placement starts: Dec 2025~~
+* ~~Paid programme, see their website for more information.~~
+* ~~⏳ Applications closes: Jul 28, 2025~~
+* ~~ℹ️ [https://apply.makers.tech/deloitte-belfast](https://apply.makers.tech/deloitte-belfast)~~
 
-#### 🆕 WITS Ireland hiring - Secretary
-<blockquote>WITS Ireland are looking for an organised, reliable, detail-oriented Secretary to join the WITS Executive Committee. This voluntary role plays a vital part in ensuring the smooth administration of the organisation, supporting governance, and facilitating communication across the committee.</blockquote>
+#### ~~WITS Ireland hiring - Secretary~~
+~~<blockquote>WITS Ireland are looking for an organised, reliable, detail-oriented Secretary to join the WITS Executive Committee. This voluntary role plays a vital part in ensuring the smooth administration of the organisation, supporting governance, and facilitating communication across the committee.</blockquote>~~
 
-* ⏳ Applications closes: Jul 30, 2025
-* [More info via their LinkedIn post](https://www.linkedin.com/posts/witsireland_wits-stemireland-womeninstem-activity-7346499297389019137-7rGp)
+* ~~⏳ Applications closes: Jul 30, 2025~~
+* ~~[More info via their LinkedIn post](https://www.linkedin.com/posts/witsireland_wits-stemireland-womeninstem-activity-7346499297389019137-7rGp)~~
 
 
 ## And finally... 
@@ -133,6 +138,9 @@ If you find what we've being doing is useful, please help support us either gett
 
 <a id="changelog"></a>
 ## Changelog
+* 2025-07-31:
+    * Crossed out past news/events - EP25 FinAid, Women in AI Ireland: Summer Soiree, Deloitte NI x Makers, WITS Ireland hire
+    * Added TechFoundHer The Collective: Summer Meetup
 * 2025-07-22:
     * Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)
     * NIDC - Call for Volunteers
