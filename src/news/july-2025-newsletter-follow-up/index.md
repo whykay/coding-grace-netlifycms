@@ -86,6 +86,11 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 📍 TOG Hackerspace
 * 🎟️ [https://endofwin10.ie](https://endofwin10.ie/)
 
+#### (In-Person) Latinas in Tech Dublin 🆕
+* 🗓️ Wed Aug 13, 17:30
+* 📍 Toast
+* 🎟️ [https://latinasintech.org/events/level-up-your-brand-how-to-use-ai-to-shape-your-professional-identity](https://latinasintech.org/events/level-up-your-brand-how-to-use-ai-to-shape-your-professional-identity)
+
 #### (In-Person) Women in Animation Summer Meet 🆕
 * 🗓️ Fri Sep 12 (18L:30)
 * 📍 Opium, D2
@@ -174,6 +179,7 @@ If you find what we've being doing is useful, please help support us either gett
     * Added PyLadiesCon - Call for Volunteers
     * Added Women in Animation Summer Meet
     * Added Techtides startup area - Call for participation
+    * Added Latinas in Tech Dublin
     * Crossed out past event(s) - TechFoundHer
 * 2025-07-31:
     * Crossed out past news/events - EP25 FinAid, Women in AI Ireland: Summer Soiree, Deloitte NI x Makers, WITS Ireland hire
