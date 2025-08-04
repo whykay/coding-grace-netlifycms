@@ -86,6 +86,11 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 📍 TOG Hackerspace
 * 🎟️ [https://endofwin10.ie](https://endofwin10.ie/)
 
+#### (In-Person) Women in Animation Summer Meet 🆕
+* 🗓️ Fri Sep 12 (18L:30)
+* 📍 Opium, D2
+* Just show up, no event page. Here's [more info](https://www.linkedin.com/posts/gareth-lee-screen-skills_cultural-creative-industries-skillnet-are-activity-7356256093196406786-Ru-O)
+
 #### ~~(In-Person) Women in AI Ireland: Summer Soiree~~
 *  ~~🗓️ Wed Jul 23, 2025 (18:00-20:00)~~
 *  ~~📍 eBay HQ (Dublin)~~
@@ -122,10 +127,20 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * ℹ️ Conference site: [https://www.nidevconf.com/](https://www.nidevconf.com/)
 * 👉 Volunteer application form: [https://docs.google.com/forms/d/e/1FAIpQLSfBhph-vrjJEQWrzfHNJnHsub6L5jMvvOSegfNhLSx1SuoZvw/viewform](https://docs.google.com/forms/d/e/1FAIpQLSfBhph-vrjJEQWrzfHNJnHsub6L5jMvvOSegfNhLSx1SuoZvw/viewform)
 
+#### PyLadiesCon - Call for Volunteers
+> PyLadiesCon 2025 returns for its third edition as the best 24-hour global Python conference in the world! When you volunteer with us, you’re not only supporting an event—you’re joining a movement that celebrates diversity by enabling speakers to present in their native languages across all time zones. You’re cultivating a welcoming, inclusive environment where everyone can thrive. You’re contributing to a community that empowers underrepresented voices in tech and fosters a culture of collaboration and learning.
+* 👉 Apply to volunteer here: [https://conference.pyladies.com/2025-call-for-volunteers/](https://conference.pyladies.com/2025-call-for-volunteers/)
+
 ## Opportunities
 #### WiCyS Mentorship Program 🆕
 * ⏳ August 27, 2025 (17:00 CT)
 * 👉 Apply as mentor or mentee: [https://www.wicys.org/initiatives/mentor/mentor-mentee-program](https://www.wicys.org/initiatives/mentor/mentor-mentee-program)
+
+#### Techtides startup area - Call for participation 🆕
+* 🗓️ Conference date: Tue Nov 18, 2025
+* ℹ️ Conference site: [https://techtides.co](https://techtides.co/)
+* 📍 Millennium Forum, Derry
+* 👉 Apply for startup exhibition space (limited) [here](https://docs.google.com/forms/d/e/1FAIpQLSdbqYJGnssP8AAlqBULLMdtA1XVH7yf669IpUJrzMsgkepYVQ/viewform)
 
 #### ~~Deloitte NI x Makers - Software Engineering Bootcamp (Belfast)~~
 * ~~🗓️ Bootcamp starts: Sep 2025 / Placement starts: Dec 2025~~
@@ -156,6 +171,9 @@ If you find what we've being doing is useful, please help support us either gett
     * Added SHEROES Awards 2025 Nominations
     * Added WiCyS Mentorship Program
     * Added DevFest Ireland 2025
+    * Added PyLadiesCon - Call for Volunteers
+    * Added Women in Animation Summer Meet
+    * Added Techtides startup area - Call for participation
     * Crossed out past event(s) - TechFoundHer
 * 2025-07-31:
     * Crossed out past news/events - EP25 FinAid, Women in AI Ireland: Summer Soiree, Deloitte NI x Makers, WITS Ireland hire
