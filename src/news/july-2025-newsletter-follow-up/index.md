@@ -139,6 +139,14 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * ⏳ Applications closes: August 3, 2025 
 * 🎤 Apply: [https://python.ie/pycon-2025/call-for-speakers](https://python.ie/pycon-2025/call-for-speakers/)
 
+
+#### NIDC Call for Speakers 🆕
+* 🗓️ Conference dates: Nov 8, 2025
+* 📍 Waterfront ICC, Belfast
+* ℹ️ Conference site: [https://www.nidevconf.com/](https://www.nidevconf.com/)
+* ⏳ Sep 15 2025
+* 🎤 Apply: [https://sessionize.com/nidc-2025](https://sessionize.com/nidc-2025)
+
 #### PyLadiesCon 2025
 * 🗓️ Conference dates: Dec 5 - 7, 2025
 * 📍 Online
@@ -198,12 +206,13 @@ If you find what we've being doing is useful, please help support us either gett
 <a id="changelog"></a>
 ## Changelog
 * 2025-08-05:
-    * This will be my last entry in this blog post for events as it doesn't make sense to update this and update diversityintech.fyi's events listings as well (it's hand-curated and not automated, so not very productive) - I'm looking into seeing how I can do micro-updates and be more efficient.
+    * This will be my last entry in this blog post for events as it doesn't make sense to update this and update diversityintech.fyi's events listings as well (it's hand-curated and not automated, so not very productive) - I'm looking into seeing how I can do micro-updates and be more efficient. I will still update any CFPs and CTAs though. 
     * Added Co-Create: Cooperative Business Models for the Games Sector
     * Added Dub|Sec
     * Added TOG Hackerspace Open Social
     * Added Dublin Linux Community virtual and in-person meetup
     * Added Women in Tech Belfast Summer Social
+    * Added NIDC 2025 CFP
 * 2025-08-04:
     * Added SHEROES Awards 2025 Nominations
     * Added WiCyS Mentorship Program
