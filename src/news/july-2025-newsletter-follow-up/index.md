@@ -19,9 +19,9 @@ author:
 date: 2025-07-11
 is_published: true
 published: 2025-07-11T10:15:00Z
-description: "Our July newsletter is out, this post is a follow-up of news after the newsletter was published."
+description: "Our July/August newsletter is out, this post is a follow-up of news after the newsletter was published."
 slug: july-2025-newsletter-follow-up
-title: July 2025 Newsletter Follow-up
+title: July/August Bi-Monthly 2025 Newsletter Follow-up
 tags:
   - newsletter
   - events
@@ -64,7 +64,7 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 📍 Conference: The Foundry Google | Social events: Various
 * 🎟️ [https://nexusdublin.ie/](https://nexusdublin.ie/)
 
-#### DevFest Ireland 2025 🆕
+#### DevFest Ireland 2025
 * 🗓️ Dec 6, 2025
 * 📍 Midlands Park Hotel, Portlaoise
 * 🎟️ https://devfestireland.com/
@@ -76,6 +76,10 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 📍 The Dark Horse (Belfast)
 * 🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)
 
+#### (Online) Dublin Linux Community: Coffee Meetup
+* 🗓️ Sat Aug 9, 2025 (15:00)
+* [https://www.meetup.com/dublin-linux-community/events/309376849/](https://www.meetup.com/dublin-linux-community/events/309376849/)
+  
 #### (In-Person) Python Ireland August 2025 Meetup
 * 🗓️ Wed Aug 13, 18:30 - 20:30
 * 📍 Personio
@@ -86,10 +90,31 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 📍 TOG Hackerspace
 * 🎟️ [https://endofwin10.ie](https://endofwin10.ie/)
 
-#### (In-Person) Latinas in Tech Dublin 🆕
+#### (In-Person) Latinas in Tech Dublin
 * 🗓️ Wed Aug 13, 17:30
 * 📍 Toast
 * 🎟️ [https://latinasintech.org/events/level-up-your-brand-how-to-use-ai-to-shape-your-professional-identity](https://latinasintech.org/events/level-up-your-brand-how-to-use-ai-to-shape-your-professional-identity)
+
+#### (In-Person) TOG Hackerspace Open Social 🆕
+* 🗓️ Sat Aug 16, 2025 (19:00) 
+* 📍 TOG Hackerspace
+* [https://www.meetup.com/tog-dublin-hackerspace/events/308863549/](https://www.meetup.com/tog-dublin-hackerspace/events/308863549/)
+
+#### (In-Person) Dublin Linux Community: Monthly Meetup in the pub
+* 🗓️ Sat Aug 23, 2025 (15:00)
+* 📍 The South Strand 
+* [https://www.meetup.com/dublin-linux-community/events/308838034/](https://www.meetup.com/dublin-linux-community/events/308838034/)
+
+#### (Online) Co-Create: Cooperative Business Models for the Games Sector 🆕
+* 🗓️ Part 1: Wed Aug 27 (15:00 - 16:30)
+* 🗓️ Part 2: Sat Sep 27 (10:00 - 13:00)
+* 📍 Online
+* 🎟️ [Part 1](https://www.eventbrite.co.uk/e/co-create-cooperative-business-models-for-the-games-sector-part-1-tickets-1535653082709?aff=ebdsoporgprofile) | [Part 2](https://www.eventbrite.co.uk/e/co-create-cooperative-business-models-for-the-games-sector-part-2-tickets-1535676191829?aff=ebdsoporgprofile)
+
+#### (In-Person) Dub|Sec: August 2025 Meetup 🆕
+* 🗓️ Wed Aug 27, 2025 (18:30)
+* 📍 The Camden Court Hotel
+* 🎟️ [https://www.meetup.com/dub-sec/events/310354727/](https://www.meetup.com/dub-sec/events/310354727/)
 
 #### (In-Person) Women in Animation Summer Meet 🆕
 * 🗓️ Fri Sep 12 (18L:30)
@@ -122,7 +147,7 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 🎤 Apply: [https://pretalx.com/pyladiescon-2025/cfp](https://pretalx.com/pyladiescon-2025/cfp)
 
 ## Call to Action
-#### SHEROES Awards 2025 Nominations 🆕
+#### SHEROES Awards 2025 Nominations
 * ⏳ Applications closes: Aug 14 2025
 * 👉 [Submit your nomiations here](https://docs.google.com/forms/d/e/1FAIpQLSeQtgPp3RuZW9dypkKrdOjJ_BEOKSxYX7ZD-tenjtvIxLfNqg/viewform)
 
@@ -137,11 +162,11 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 👉 Apply to volunteer here: [https://conference.pyladies.com/2025-call-for-volunteers/](https://conference.pyladies.com/2025-call-for-volunteers/)
 
 ## Opportunities
-#### WiCyS Mentorship Program 🆕
+#### WiCyS Mentorship Program
 * ⏳ August 27, 2025 (17:00 CT)
 * 👉 Apply as mentor or mentee: [https://www.wicys.org/initiatives/mentor/mentor-mentee-program](https://www.wicys.org/initiatives/mentor/mentor-mentee-program)
 
-#### Techtides startup area - Call for participation 🆕
+#### Techtides startup area - Call for participation
 * 🗓️ Conference date: Tue Nov 18, 2025
 * ℹ️ Conference site: [https://techtides.co](https://techtides.co/)
 * 📍 Millennium Forum, Derry
@@ -172,6 +197,13 @@ If you find what we've being doing is useful, please help support us either gett
 
 <a id="changelog"></a>
 ## Changelog
+* 2025-08-05:
+    * This will be my last entry in this blog post for events as it doesn't make sense to update this and update diversityintech.fyi's events listings as well (it's hand-curated and not automated, so not very productive) - I'm looking into seeing how I can do micro-updates and be more efficient.
+    * Added Co-Create: Cooperative Business Models for the Games Sector
+    * Added Dub|Sec
+    * Added TOG Hackerspace Open Social
+    * Added Dublin Linux Community virtual and in-person meetup
+    * Added Women in Tech Belfast Summer Social
 * 2025-08-04:
     * Added SHEROES Awards 2025 Nominations
     * Added WiCyS Mentorship Program
