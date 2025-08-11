@@ -71,15 +71,6 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * 🙏 Thanks to [Yuan Zhang](https://github.com/YuanZhang98) for sharing the event.
 
 ### Events  
-#### (In-Person) NI Cyber x Danske Bank UK Women in Cyber Summer Social
-* 🗓️ Thursday, August 7, 17:00 - 20:00
-* 📍 The Dark Horse (Belfast)
-* 🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)
-
-#### (Online) Dublin Linux Community: Coffee Meetup
-* 🗓️ Sat Aug 9, 2025 (15:00)
-* [https://www.meetup.com/dublin-linux-community/events/309376849/](https://www.meetup.com/dublin-linux-community/events/309376849/)
-  
 #### (In-Person) Python Ireland August 2025 Meetup
 * 🗓️ Wed Aug 13, 18:30 - 20:30
 * 📍 Personio
@@ -131,6 +122,15 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 * ~~📍 Café en Seine~~
 * ~~No event page, just show up.~~
 
+#### ~~(In-Person) NI Cyber x Danske Bank UK Women in Cyber Summer Social~~
+* ~~🗓️ Thursday, August 7, 17:00 - 20:00~~
+* ~~📍 The Dark Horse (Belfast)~~
+* ~~🎟️ [https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999](https://www.eventbrite.co.uk/e/ni-cyber-x-danske-bank-uk-women-in-cyber-summer-social-tickets-1482203643999)~~
+
+#### ~~(Online) Dublin Linux Community: Coffee Meetup~~
+* ~~🗓️ Sat Aug 9, 2025 (15:00)~~
+* ~~[https://www.meetup.com/dublin-linux-community/events/309376849/](https://www.meetup.com/dublin-linux-community/events/309376849/)~~
+
 ## Call for Speakers
 #### PyCon Ireland 2025
 * 🗓️ Conference dates: Nov 15 - 16, 2025
@@ -157,7 +157,12 @@ Some events that popped up since the newsletter went out. Are we missing any oth
 ## Call to Action
 #### SHEROES Awards 2025 Nominations
 * ⏳ Applications closes: Aug 14 2025
-* 👉 [Submit your nomiations here](https://docs.google.com/forms/d/e/1FAIpQLSeQtgPp3RuZW9dypkKrdOjJ_BEOKSxYX7ZD-tenjtvIxLfNqg/viewform)
+* 👉 [Submit your nominations here](https://docs.google.com/forms/d/e/1FAIpQLSeQtgPp3RuZW9dypkKrdOjJ_BEOKSxYX7ZD-tenjtvIxLfNqg/viewform)
+
+#### TrailblazHER Excellence Awards Nominations
+* ℹ️ Events page: [https://www.tudublin.ie/explore/about-the-university/equality-and-diversity/edi-initiatives-in-tu-dublin/trailblazher-excellence-awards/](https://www.tudublin.ie/explore/about-the-university/equality-and-diversity/edi-initiatives-in-tu-dublin/trailblazher-excellence-awards/)
+* ⏳ Nominations closes: Aug 27 2025
+* 👉 [Submit your nominations here](https://www.tudublin.ie/explore/about-the-university/equality-and-diversity/edi-initiatives-in-tu-dublin/trailblazher-excellence-awards/how-to-enter/submit-an-entry/#d.en.238228)
 
 #### NIDC - Call for Volunteers
 * 🗓️ Conference dates: Nov 8, 2025
@@ -205,6 +210,9 @@ If you find what we've being doing is useful, please help support us either gett
 
 <a id="changelog"></a>
 ## Changelog
+* 2025-08-11:
+    * Crossed out past events: NI Cyber x Danske Bank UK Women in Cyber Summer Social & Dublin Linux Community online coffee meetup
+    * Added TrailblazHER Excellence Awards Nominations
 * 2025-08-05:
     * This will be my last entry in this blog post for events as it doesn't make sense to update this and update diversityintech.fyi's events listings as well (it's hand-curated and not automated, so not very productive) - I'm looking into seeing how I can do micro-updates and be more efficient. I will still update any CFPs and CTAs though. 
     * Added Co-Create: Cooperative Business Models for the Games Sector
