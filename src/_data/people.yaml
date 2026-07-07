@@ -1,31 +1,31 @@
 ---
 team:
   - name: Andrea Magnorsky
-    url: 
-    twitter: "https://twitter.com/silverspoon"
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/magnorsky"
     role: "Director/Co-Founder"
     desc: ""
-    profile_pic: "https://i.imgur.com/ngRYPfub.jpg"
+    profile_pic: "/static/img/team/andrea.png"
   - name: Michael Twomey
-    url: 
-    twitter: "https://twitter.com/micktwomey"
-    linkedin:
+    url: "https://www.twoistoomany.com/"
+    twitter:
+    linkedin: "https://www.linkedin.com/in/mick-twomey-engineer/"
     role: "Director/Co-Founder"
     desc: ""
-    profile_pic: "https://i.imgur.com/hpUfWOVb.jpg"
+    profile_pic: "/static/img/team/mick.jpg"
   - name: Vicky Twomey-Lee
     url: "https://beacons.page/whykay"
-    twitter: "https://twitter.com/whykay"
-    linkedin: 
+    twitter:
+    linkedin: "https://www.linkedin.com/in/vickyleeire/"
     role: "Co-Founder"
     desc: "Coder, Tech Event Organiser, Mentor and Advocates Diversity in Tech"
-    profile_pic: "https://pbs.twimg.com/profile_images/1334538352993968128/HD6EYYqv_400x400.jpg"
+    profile_pic: "/static/img/team/vicky.png"
 
 advisors:
   - name: Mary Carty
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/marycarty"
     desc: "CEO Wilson & Keys, Co-Founder AwakenHub. International Board Director. Consultant and Advisor."
   - name: Joanne Dolan
@@ -34,184 +34,184 @@ advisors:
     linkedin:
     desc: "Co-Founder at Teen-Turn"
   - name: Alexandra Etienne
-    url: 
+    url:
     twitter: "https://www.linkedin.com/in/alexandra-etienne-112290102"
     linkedin:
     desc: "Program Manager at Dropbox"
   - name: Edel Flynn
-    url: 
+    url:
     twitter:
     linkedin: "https://www.linkedin.com/in/edelkennedyflynn"
     desc: "CEO at HyWorx"
   - name: Paul Hayes
-    url: 
+    url:
     twitter:
     linkedin: "https://www.linkedin.com/in/paulhayes4"
     desc: "CEO at Beachhut PR"
-  - name: Tony Kelly 
-    url: 
+  - name: Tony Kelly
+    url:
     twitter:
     linkedin: "https://www.linkedin.com/in/paulhayes4"
     desc: "Spicebox.io"
   - name: Eamon Leonard
-    url: 
+    url:
     twitter:
     linkedin: "https://www.linkedin.com/in/eamonleonard/"
     desc: "Broadstone"
   - name: Mary Dunphy
-    url: 
+    url:
     twitter: "https://twitter.com/marydunph?lang=en"
     linkedin: "https://www.linkedin.com/in/mary-dunphy-9a159b18"
     desc: "Chairperson at Kollect"
   - name: Cian O'Cuilleanain
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/cianoc/"
     desc: "MD, Baily Labs"
   - name: Julie Pichon
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/juliepichon/"
     desc: "Senior Software Engineer, Red Hat"
   - name: Martha Rotter
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/martharotter/"
     desc: "Senior Software Engineer, Patreon"
   - name: Pauline Sargent
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/paulinesargent/"
     desc: "Project Coordinator/Manager"
   - name: Niambh Scullion
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/niambh-scullion-she-her-7253763/"
     desc: "Sr. Product Manager - Workday Search"
   - name: Andreea Wade
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/andreeawade/"
     desc: "Head of Talent Cloud AI at iCIMS"
   - name: Patrick Walsh
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/patrickmjwalsh/"
     desc: "CEO, Dogpatch Labs"
-  - name: Rose Farrell 
-    url: 
-    twitter: 
+  - name: Rose Farrell
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/roseirl"
     desc: "Senior Recruiter | Career Cicerone | Digital Stalker | Cat Herder at nineDots"
   - name: Padraig O'Brien
-    url: 
-    twitter: 
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/padraigobrien/"
     desc: "Senior Engineering Manager at Toast"
-  - name: Fiona Mc Kenna 
-    url: 
-    twitter: 
+  - name: Fiona Mc Kenna
+    url:
+    twitter:
     linkedin: "https://www.linkedin.com/in/fiona-mc-kenna-174172a2/"
     desc: "Co-Founder, CFO & Head of HR at fourTheorem"
 
 organisers:
   - name: Blanchardstown Library
     url: "http://www.fingalcoco.ie/community-and-leisure/libraries/find-a-library-and-check-opening-hours/blanchardstown-library/"
-    twitter: 
-    linkedin: 
-    desc: 
+    twitter:
+    linkedin:
+    desc:
   - name: Coder Dojo
     url: "https://coderdojo.com"
     twitter: "https://twitter.com/CoderDojo"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: Silicon Republic
     url: "https://www.siliconrepublic.com/"
     twitter: "https://twitter.com/siliconrepublic"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: CoderDojoGirls DCU
     url: "https://coderdojodcu.com/girls"
     twitter: "https://twitter.com/coderdojogirls"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: Girls Hack Ireland
     url: "https://girlshackireland.org/"
     twitter: "https://twitter.com/coderdojogirls"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: Dale Dunlea
-    url: 
-    twitter: 
-    linkedin: 
+    url:
+    twitter:
+    linkedin:
     desc:
   - name: Dublin Raspberry Pi Jam
     url: "https://dublin-pi-jam.github.io/"
-    twitter: 
-    linkedin: 
+    twitter:
+    linkedin:
     desc: Runs Pi Jams in Dublin.
   - name: Functional Kats
-    url: 
+    url:
     twitter: "https://twitter.com/functionalkats"
-    linkedin: 
+    linkedin:
     desc:
   - name: Irene Yeriskin
-    url: 
+    url:
     twitter: "https://twitter.com/rene_iy"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: Irish Geeks
     url: "https://irishgeeks.github.io/"
-    twitter: 
-    linkedin: 
-    desc: 
+    twitter:
+    linkedin:
+    desc:
   - name: Kevin O'Brien
-    url: 
+    url:
     twitter: "https://twitter.com/dragonflystats"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: Lynda O'Leary
-    url: 
+    url:
     twitter: "https://twitter.com/olearylynda"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: NeuroSoc and DUCSS
-    url: 
+    url:
     twitter: "https://www.eventbrite.ie/o/neurosoc-and-ducss-18107426892"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: ReFig Team
     url: "http://gamedevelopers.ie/diversity/"
-    twitter: 
-    linkedin: 
-    desc: 
+    twitter:
+    linkedin:
+    desc:
   - name: Serena Fritsch
-    url: 
+    url:
     twitter: "https://twitter.com/serifritsch"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: Vessy Tasheva
     url: "https://vessy.com/diversity"
-    twitter: 
-    linkedin: 
-    desc: 
+    twitter:
+    linkedin:
+    desc:
   - name: Vue Vixens Ireland
-    url: 
+    url:
     twitter: "https://twitter.com/vuevixensirl"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
   - name: weAREhere
     url: "https://www.facebook.com/wearehere.ireland/"
-    twitter: 
-    linkedin: 
-    desc: 
+    twitter:
+    linkedin:
+    desc:
   - name: Workday
     url: "https://www.workday.com/en-us/pages/careers-dublin.html"
-    twitter: 
-    linkedin: 
-    desc: 
+    twitter:
+    linkedin:
+    desc:
   - name: Zita
-    url: 
+    url:
     twitter: "https://twitter.com/zitadezign"
-    linkedin: 
-    desc: 
+    linkedin:
+    desc:
