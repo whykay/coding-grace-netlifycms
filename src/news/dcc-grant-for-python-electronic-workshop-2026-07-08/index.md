@@ -22,6 +22,15 @@ NOTE: There's only **10 places** for this workshop.
 
 If you have any enquiries, please email: [contact@codinggrace.com](mailto:contact@codinggrace.com)
 
-<hr>
+<div class="relative">
+  <div class="absolute inset-0 flex items-center" aria-hidden="true">
+    <div class="w-full border-t border-gray-300"></div>
+  </div>
+  <div class="relative flex justify-center mt-20">
+    <span class="px-2 bg-white text-sm text-gray-500">
+      ❤️❤️❤️
+    </span>
+  </div>
+</div>
 
 Note: No genai was used to create the content in this post.
