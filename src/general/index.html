@@ -94,35 +94,34 @@ data: people, organiser_details
               </p>
 
               <p class="mt-5">There are 2 ways you can contribute to Coding Grace Foundation which can help alleviate expenses from accounting and bank charges.</p>
-              <h4 class="mt-4 text-lg font-extrabold">1. Open Collective</h4>
-              <p>A great service to help communities like ours to accept contributions transparently. Here's a hu-uge ❤️ to our Open Collective supporters below. </p>
-              <p class="bg-yellow-50 p-4 mt-2">
-                <script src="https://opencollective.com/coding-grace/banner.js"></script>
 
-                <script src="https://opencollective.com/coding-grace/contribute/button.js" color="blue"></script>
-              </p>
-              
-              <h4 class="mt-4 text-lg font-extrabold">2. Patreon</h4>
-              <div class="bg-yellow-50 p-4 mt-2">
-                <p>
-                  This one is relatively new. If you want to support us via Patreon, click on the button below.
-                </p>
-                <p class="mt-4">
-                  <a href="https://www.patreon.com/bePatron?u=77507905" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-                </p>
-              </div>
-
-              <h4 class="mt-4 text-lg font-extrabold">3. ko-fi</h4>
+              <h4 class="mt-4 text-lg font-extrabold">1. ko-fi</h4>
               <div class="bg-yellow-50 p-4 mt-2">
                 <p>
                   This one is relatively new. If you want to support us via ko-fi, click on the button below.
                 </p>
                 <p class="mt-4">
-                  <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Us on Ko-fi', '#e09d28', 'S6S5E6K3V');kofiwidget2.draw();</script> 
+                    <a href='https://ko-fi.com/S6S5E6K3V' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Us a Coffee at ko-fi.com' /></a>
                 </p>
               </div>
 
-              <h4 class="mt-4 text-lg font-extrabold">4. Github Sponsors</h4>
+              <h4 class="mt-4 text-lg font-extrabold">2. Patreon</h4>
+              <div class="bg-yellow-50 p-4 mt-2">
+                <p>
+                  This one is relatively new. If you want to support us via Patreon.
+                </p>
+                <a href="https://www.patreon.com/cw/codinggrace"><strong>Become a Patreon Member<strong></a>
+
+                <div class="mt-5 flex text-base max-w-prose mx-auto lg:max-w-none">
+                  <div class="rounded-md shadow">
+                    <a href="https://www.patreon.com/cw/codinggrace" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-500 hover:bg-yellow-700">
+                        Become a Patreon Member
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <h4 class="mt-4 text-lg font-extrabold">3. Github Sponsors</h4>
               <div class="bg-yellow-50 p-4 mt-2">
                 <p>
                   If you want to sponsor us via github, click on the button below.
@@ -131,7 +130,7 @@ data: people, organiser_details
                   <a class="github-button" href="https://github.com/sponsors/codinggrace" data-icon="octicon-heart" aria-label="Sponsor @codinggrace on GitHub">Sponsor</a>
                 </p>
               </div>
-              
+
             </dd>
           </div>
         </dl>
@@ -165,7 +164,7 @@ data: people, organiser_details
                                     <p class="text-gray-600 ">
                                         {{ member.role }}
                                     </p>
-                                    
+
                                     <ul class="flex justify-center space-x-5 mt-2">
                                         {% if member.url %}
                                         <li>
@@ -219,13 +218,13 @@ data: people, organiser_details
                     <div class="space-y-4">
                         <div class="space-y-2">
                             <div class="text-xs font-medium lg:text-sm ">
-                            
+
                                 <h3>{{ member.name }}</h3>
                                 <div class="p-3">
                                     <div class="text-blue-500">
                                     {{ member.desc }}
                                     </div>
-                                
+
                                     <ul class="flex justify-center space-x-5 mt-2">
                                     {% if member.url %}
                                         <li>
@@ -284,7 +283,7 @@ data: people, organiser_details
     <h3 class="font-semibold tracking-tight sm:text-4xl text-center">Mentors (Past & Present)</h3>
     <div class="py-5 text-center">
       <div class="">
-        🌈 Our workshops wouldn't be able to run without all {{ people_details | length }} of these amazing volunteers. 
+        🌈 Our workshops wouldn't be able to run without all {{ people_details | length }} of these amazing volunteers.
       </div>
       <div class="">
         Interested in mentoring at one of our workshops? You can <a href="https://docs.google.com/forms/d/12XbtEtgY_V1quYNgD3SHMPcXB2kDiNHzRl7FvVIaISc/viewform?usp=send_form" class="text-gray-500 hover:text-gray-600 bg-yellow-100 ">apply here</a>.
