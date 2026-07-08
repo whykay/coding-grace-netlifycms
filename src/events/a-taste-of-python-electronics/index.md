@@ -27,7 +27,7 @@ mentors:
 organiser: 
 - vicky-twomey-lee
 
-short_description: "Learn about circuits from paper circuits to bradboards and how to use CircuitPython to control electronics, and by the end you learn how to code your own game controller!"
+short_description: "Learn about circuits from paper circuits to bradboards and how to use CircuitPython to control electronics, and by the end you learn how to code your own game controller! **Limited to 10 places.**"
 slug: a-taste-of-python-electronics
 title: "A Taste of Python and Electronics"
 
