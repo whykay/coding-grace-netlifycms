@@ -89,13 +89,15 @@ If you have any other general questions:\n
 
 <hr> 
     
-👀 If you are interested, you can register your interest so we can notify you when the tickets become available: [https://ti.to/coding-grace/circuitpython-and-electronics-workshop-series](https://ti.to/coding-grace/circuitpython-and-electronics-workshop-series)\n
+👀 If you are interested, you can register your interest so we can notify you when the tickets become available: [https://ti.to/coding-grace/circuitpython-and-electronics-workshop-series](https://ti.to/coding-grace/circuitpython-and-electronics-workshop-series)
 
 <hr>
 
 🎮 By the last session, you will be able to code a game controller connected to a Raspberry Pi Pico, and when you connect that a laptop, you can play games! And as it's customisable, you can change and modify it as it's all in Python! 🐍
 
 👉 Each session builds on the previous one, so it's advised to attend all the sessions.
+
+NOTE: There's only **10 places** for this workshop. If there's enough interest, we will host another series in the near future.
 
 Vicky Twomey-Lee and Michael Twomey will be the workshop facilitators. Both are co-founders of Coding Grace, and no strangers to running workshops and community events over the past decade.
 
