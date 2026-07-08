@@ -72,7 +72,7 @@ Yes, you are welcome. Events we run or partner in are diversity friendly. If you
 Yes, this is an **18s and over** workshop. We do not have the supports to run an under 18s workshop right now.
 
 #### Refunds\n
-Full refunds until 24 hours before the event. If there are not enough people signed up to the event, I will be in touch to refund you.
+Full refunds until 24 hours before **the first event**. If there are not enough people signed up to the event, I will be in touch to refund you.
 
 #### General Enquiries\n
 If you have any other general questions:\n
