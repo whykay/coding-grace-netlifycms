@@ -4,7 +4,7 @@ cost: 50.00
 date: 2026-09-06
 start_datetime: 2026-09-06T11:00:00Z
 end_datetime: 2026-10-03T12:30:00Z
-event_ended: false
+event_ended: true
 
 event_url: "https://ti.to/coding-grace/circuitpython-and-electronics-workshop-series"
 
