@@ -1,8 +1,8 @@
 ---
 # cost: 
-date: 2026-11-14
-start_datetime: 2026-11-14T09:00:00Z
-end_datetime: 2026-11-14T15:30:00Z
+date: 2027-03-13
+start_datetime: 2027-03-13T09:00:00Z
+end_datetime: 2027-03-13T15:30:00Z
 event_ended: false
 
 event_url: "https://www.clareed.ie/cpd-courses-2/post-primary-courses/4484-face-to-face-workshop-introduction-to-python-and-electronics.html"
@@ -63,6 +63,7 @@ If you have any other general questions:\n
 "
 
 ---
+**📢 UPDATE: Workshop re-scheduled to Saturday March 13, 2027**
 
 ## ⚡️ Welcome to the world of electronics with Python that can interact with electronics (it's called CircuitPython). 
 
